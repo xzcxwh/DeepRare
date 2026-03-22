@@ -1,0 +1,2673 @@
+HERITA Pipeline - Step 10: Detailed ACMG Analysis Log
+Date: 2025-12-12 14:42:29
+Input: results_pipeline/HG001_cds_dbnsfp_supplemented.vcf
+================================================================================
+
+Variant #1: chr1:948519 T>G
+Gene: NOC2L
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr1:948519
+   - Ref/Alt: T/G
+   - Gene: NOC2L
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 人群频率极低(AF=3.33e-05)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-2_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 3.3277e-05
+   - REVEL: 0.2750
+   - CADD: 22.90
+   - AlphaMissense: 0.0764
+   - phyloP: 4.500
+================================================================================
+
+Variant #2: chr1:1635982 G>GC
+Gene: CDK11B
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr1:1635982
+   - Ref/Alt: G/GC
+   - Gene: CDK11B
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 在gnomAD中未发现
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-2_vs_B-0)
+
+5. Key Annotations:
+   (None)
+================================================================================
+
+Variant #3: chr1:9735980 C>T
+Gene: CLSTN1
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr1:9735980
+   - Ref/Alt: C/T
+   - Gene: CLSTN1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 人群频率极低(AF=4.64e-05)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-2_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 4.6374e-05
+   - ClinVar: Uncertain_significance
+   - ClinVar Review: criteria_provided,_single_submitter
+   - REVEL: 0.5970
+   - CADD: 34.00
+   - AlphaMissense: 0.2238
+   - phyloP: 2.330
+================================================================================
+
+Variant #4: chr1:16206949 T>C
+Gene: ARHGEF19
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr1:16206949
+   - Ref/Alt: T/C
+   - Gene: ARHGEF19
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   证据不足
+
+5. Key Annotations:
+   - gnomAD AF: 0.0018873
+   - REVEL: 0.4080
+   - CADD: 36.00
+   - AlphaMissense: 0.9951
+================================================================================
+
+Variant #5: chr1:22600748 G>A
+Gene: EPHA8
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr1:22600748
+   - Ref/Alt: G/A
+   - Gene: EPHA8
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   证据不足
+
+5. Key Annotations:
+   - gnomAD AF: 0.0018334
+   - REVEL: 0.7280
+   - CADD: 31.00
+   - AlphaMissense: 0.4568
+   - phyloP: -0.361
+================================================================================
+
+Variant #6: chr1:52904685 G>T
+Gene: ECHDC2
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr1:52904685
+   - Ref/Alt: G/T
+   - Gene: ECHDC2
+   - AA Change: Y262X
+
+2. Pathogenic Evidence:
+   [+] PM2: 人群频率极低(AF=1.36e-05)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-2_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 1.357220e-05
+   - CADD: 36
+   - ESM1b: -14.042805
+================================================================================
+
+Variant #7: chr1:64691437 C>G
+Gene: CACHD1
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr1:64691437
+   - Ref/Alt: C/G
+   - Gene: CACHD1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   证据不足
+
+5. Key Annotations:
+   - gnomAD AF: 0.0036349
+   - REVEL: 0.2580
+   - CADD: 24.50
+   - AlphaMissense: 0.6589
+   - phyloP: 1.910
+================================================================================
+
+Variant #8: chr1:65218865 G>C
+Gene: AK4
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr1:65218865
+   - Ref/Alt: G/C
+   - Gene: AK4
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于AK4功能域
+   [+] PM2: 人群频率极低(AF=2.70e-05)
+   [+] PP3: 多个计算预测有害(REVEL=0.909, CADD=27.1, AlphaMissense=0.962)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-5_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 2.7028e-05
+   - REVEL: 0.9090
+   - CADD: 27.10
+   - AlphaMissense: 0.9621
+   - phyloP: 2.180
+================================================================================
+
+Variant #9: chr1:115705205 T>C
+Gene: CASQ2
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr1:115705205
+   - Ref/Alt: T/C
+   - Gene: CASQ2
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于CASQ2功能重要区域
+   [+] PM2: 人群频率极低(AF=9.01e-07)
+   [+] PP3: 多个计算预测有害(REVEL=0.750, CADD=27.9, phyloP=2.53)
+
+3. Benign Evidence:
+   [-] BS2: 在健康人群中观察到
+
+4. Classification Reason:
+   致病倾向(P-5_vs_B-3)
+
+5. Key Annotations:
+   - gnomAD AF: 9.0071e-07
+   - ClinVar: Uncertain_significance
+   - ClinVar Review: criteria_provided,_multiple_submitters,_no_conflicts
+   - REVEL: 0.7500
+   - CADD: 27.90
+   - AlphaMissense: 0.4399
+   - phyloP: 2.530
+================================================================================
+
+Variant #10: chr1:117994519 T>C
+Gene: SPAG17
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr1:117994519
+   - Ref/Alt: T/C
+   - Gene: SPAG17
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 人群频率极低(AF=3.02e-05)
+   [+] PP2: SPAG17基因中错义突变常致病
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-3_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 3.0151e-05
+   - REVEL: 0.1850
+   - CADD: 23.90
+   - AlphaMissense: 0.1194
+   - phyloP: 2.300
+================================================================================
+
+Variant #11: chr1:151132600 G>A
+Gene: SEMA6C
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr1:151132600
+   - Ref/Alt: G/A
+   - Gene: SEMA6C
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 人群频率极低(AF=3.16e-05)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-2_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 3.158e-05
+   - REVEL: 0.2410
+   - CADD: 25.80
+   - AlphaMissense: 0.1524
+   - phyloP: 0.424
+================================================================================
+
+Variant #12: chr1:201361940 A>G
+Gene: TNNT2
+--------------------------------------------------------------------------------
+ACMG Classification: Likely_benign
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr1:201361940
+   - Ref/Alt: A/G
+   - Gene: TNNT2
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于TNNT2功能重要区域
+
+3. Benign Evidence:
+   [-] BP1: TNNT2基因中错义突变通常良性
+   [-] BS2: 在健康人群中观察到
+
+4. Classification Reason:
+   1强+1支持良性证据
+
+5. Key Annotations:
+   - gnomAD AF: 0.00031303
+   - ClinVar: Conflicting_classifications_of_pathogenicity
+   - ClinVar Review: criteria_provided,_conflicting_classifications
+   - REVEL: 0.9060
+   - CADD: 25.50
+   - AlphaMissense: 0.2486
+   - phyloP: 1.970
+================================================================================
+
+Variant #13: chr2:1830817 CG>C
+Gene: MYT1L
+--------------------------------------------------------------------------------
+ACMG Classification: Likely_pathogenic
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr2:1830817
+   - Ref/Alt: CG/C
+   - Gene: MYT1L
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 在gnomAD中未发现
+   [+] PVS1: LOF变异(frameshift_variant)在LOF不耐受基因MYT1L
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   PVS1+1中等证据
+
+5. Key Annotations:
+   (None)
+================================================================================
+
+Variant #14: chr2:27638944 A>C
+Gene: GPN1
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr2:27638944
+   - Ref/Alt: A/C
+   - Gene: GPN1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   证据不足
+
+5. Key Annotations:
+   - gnomAD AF: 0.0053745
+   - REVEL: 0.1460
+   - CADD: 20.50
+   - AlphaMissense: 0.8610
+   - phyloP: -2.040
+================================================================================
+
+Variant #15: chr2:46905488 G>A
+Gene: MCFD2
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr2:46905488
+   - Ref/Alt: G/A
+   - Gene: MCFD2
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于MCFD2功能重要区域
+   [+] PM2: 人群频率极低(AF=3.51e-05)
+
+3. Benign Evidence:
+   [-] BP1: MCFD2基因中错义突变通常良性
+
+4. Classification Reason:
+   致病倾向(P-4_vs_B-1)
+
+5. Key Annotations:
+   - gnomAD AF: 3.5075e-05
+   - ClinVar: Uncertain_significance
+   - ClinVar Review: criteria_provided,_multiple_submitters,_no_conflicts
+   - REVEL: 0.5940
+   - CADD: 26.50
+   - AlphaMissense: 0.4495
+   - phyloP: 1.880
+================================================================================
+
+Variant #16: chr2:177875895 A>C
+Gene: PDE11A
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr2:177875895
+   - Ref/Alt: A/C
+   - Gene: PDE11A
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于PDE11A功能重要区域
+   [+] PM2: 人群频率极低(AF=9.01e-07)
+   [+] PP3: 多个计算预测有害(REVEL=0.533, CADD=27.9, AlphaMissense=0.581)
+
+3. Benign Evidence:
+   [-] BP1: PDE11A基因中错义突变通常良性
+
+4. Classification Reason:
+   致病倾向(P-5_vs_B-1)
+
+5. Key Annotations:
+   - gnomAD AF: 9.0066e-07
+   - REVEL: 0.5330
+   - CADD: 27.90
+   - AlphaMissense: 0.5809
+   - phyloP: 2.270
+================================================================================
+
+Variant #17: chr3:14821133 G>A
+Gene: FGD5
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr3:14821133
+   - Ref/Alt: G/A
+   - Gene: FGD5
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于FGD5功能重要区域
+   [+] PM2: 人群频率极低(AF=5.04e-05)
+   [+] PP3: 多个计算预测有害(REVEL=0.731, CADD=27.1, AlphaMissense=0.966)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-5_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 5.0378e-05
+   - REVEL: 0.7310
+   - CADD: 27.10
+   - AlphaMissense: 0.9661
+   - phyloP: 2.160
+================================================================================
+
+Variant #18: chr3:42915240 AT>A
+Gene: ZNF662
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr3:42915240
+   - Ref/Alt: AT/A
+   - Gene: ZNF662
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   证据不足
+
+5. Key Annotations:
+   - gnomAD AF: 0.0015684
+================================================================================
+
+Variant #19: chr3:53811209 G>A
+Gene: CACNA1D
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr3:53811209
+   - Ref/Alt: G/A
+   - Gene: CACNA1D
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于CACNA1D功能重要区域
+   [+] PM2: 人群频率极低(AF=1.62e-05)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-4_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 1.6191e-05
+   - ClinVar: Uncertain_significance
+   - ClinVar Review: criteria_provided,_multiple_submitters,_no_conflicts
+   - REVEL: 0.3370
+   - CADD: 28.80
+   - AlphaMissense: 0.7116
+   - phyloP: 2.070
+================================================================================
+
+Variant #20: chr3:127012030 G>A
+Gene: PLXNA1
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr3:127012030
+   - Ref/Alt: G/A
+   - Gene: PLXNA1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于PLXNA1功能重要区域
+   [+] PM2: 人群频率极低(AF=2.99e-05)
+
+3. Benign Evidence:
+   [-] BS2: 在健康人群中观察到
+
+4. Classification Reason:
+   致病倾向(P-4_vs_B-3)
+
+5. Key Annotations:
+   - gnomAD AF: 2.9869e-05
+   - REVEL: 0.3480
+   - CADD: 26.80
+   - AlphaMissense: 0.7950
+   - phyloP: 2.140
+================================================================================
+
+Variant #21: chr3:127022265 G>A
+Gene: PLXNA1
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr3:127022265
+   - Ref/Alt: G/A
+   - Gene: PLXNA1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于PLXNA1功能重要区域
+
+3. Benign Evidence:
+   [-] BS2: 在健康人群中观察到
+
+4. Classification Reason:
+   良性倾向(P-2_vs_B-3)
+
+5. Key Annotations:
+   - gnomAD AF: 0.00012596
+   - REVEL: 0.3010
+   - CADD: 25.40
+   - AlphaMissense: 0.5580
+   - phyloP: -2.220
+================================================================================
+
+Variant #22: chr3:128153626 C>A
+Gene: EEFSEC
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr3:128153626
+   - Ref/Alt: C/A
+   - Gene: EEFSEC
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   证据不足
+
+5. Key Annotations:
+   - gnomAD AF: 0.0024802
+   - REVEL: 0.4580
+   - CADD: 32.00
+   - AlphaMissense: 0.4665
+   - phyloP: 2.180
+================================================================================
+
+Variant #23: chr3:155828335 C>T
+Gene: SLC33A1
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr3:155828335
+   - Ref/Alt: C/T
+   - Gene: SLC33A1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于SLC33A1功能重要区域
+   [+] PP3: 多个计算预测有害(REVEL=0.862, CADD=27.9, AlphaMissense=0.910)
+
+3. Benign Evidence:
+   [-] BS2: 在健康人群中观察到
+
+4. Classification Reason:
+   证据平衡(P-3_vs_B-3)
+
+5. Key Annotations:
+   - gnomAD AF: 0.0045228
+   - ClinVar: Conflicting_classifications_of_pathogenicity
+   - ClinVar Review: criteria_provided,_conflicting_classifications
+   - REVEL: 0.8620
+   - CADD: 27.90
+   - AlphaMissense: 0.9097
+   - phyloP: 1.850
+================================================================================
+
+Variant #24: chr3:182848542 G>T
+Gene: ATP11B
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr3:182848542
+   - Ref/Alt: G/T
+   - Gene: ATP11B
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于ATP11B功能重要区域
+   [+] PM2: 人群频率极低(AF=1.02e-05)
+   [+] PP3: 多个计算预测有害(REVEL=0.734, CADD=33.0, AlphaMissense=0.791, phyloP=2.80)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-5_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 1.0173e-05
+   - REVEL: 0.7340
+   - CADD: 33.00
+   - AlphaMissense: 0.7912
+   - phyloP: 2.800
+================================================================================
+
+Variant #25: chr3:197226031 GCTGA>G
+Gene: DLG1
+--------------------------------------------------------------------------------
+ACMG Classification: Likely_pathogenic
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr3:197226031
+   - Ref/Alt: GCTGA/G
+   - Gene: DLG1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 在gnomAD中未发现
+   [+] PVS1: LOF变异(frameshift_variant)在LOF不耐受基因DLG1
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   PVS1+1中等证据
+
+5. Key Annotations:
+   (None)
+================================================================================
+
+Variant #26: chr4:679989 T>C
+Gene: SLC49A3
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr4:679989
+   - Ref/Alt: T/C
+   - Gene: SLC49A3
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PP3: 多个计算预测有害(REVEL=0.713, CADD=24.9, AlphaMissense=0.997)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-1_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 0.0094259
+   - REVEL: 0.7130
+   - CADD: 24.90
+   - AlphaMissense: 0.9974
+   - phyloP: 2.230
+================================================================================
+
+Variant #27: chr4:2305144 C>T
+Gene: ZFYVE28
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr4:2305144
+   - Ref/Alt: C/T
+   - Gene: ZFYVE28
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   证据不足
+
+5. Key Annotations:
+   - gnomAD AF: 0.00015486
+   - REVEL: 0.4100
+   - CADD: 23.40
+   - AlphaMissense: 0.1271
+   - phyloP: 1.110
+================================================================================
+
+Variant #28: chr4:38774301 G>T
+Gene: TLR10
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr4:38774301
+   - Ref/Alt: G/T
+   - Gene: TLR10
+   - AA Change: Y430X
+
+2. Pathogenic Evidence:
+   [+] PM2: 人群频率极低(AF=3.48e-05)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-2_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 3.475720e-05
+   - CADD: 34
+   - ESM1b: -13.011833
+================================================================================
+
+Variant #29: chr4:56378148 C>A
+Gene: AASDH
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr4:56378148
+   - Ref/Alt: C/A
+   - Gene: AASDH
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   [-] BP6: ClinVar报告为良性
+
+4. Classification Reason:
+   良性倾向(P-0_vs_B-1)
+
+5. Key Annotations:
+   - gnomAD AF: 0.0044061
+   - ClinVar: Likely_benign
+   - ClinVar Review: criteria_provided,_single_submitter
+   - REVEL: 0.2430
+   - CADD: 22.10
+   - AlphaMissense: 0.2227
+   - phyloP: -1.340
+================================================================================
+
+Variant #30: chr4:75782851 T>C
+Gene: USO1
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr4:75782851
+   - Ref/Alt: T/C
+   - Gene: USO1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于USO1功能重要区域
+   [+] PM2: 人群频率极低(AF=8.96e-05)
+   [+] PP3: 多个计算预测有害(REVEL=0.535, CADD=25.9, AlphaMissense=0.840, phyloP=2.82)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-5_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 8.9555e-05
+   - REVEL: 0.5350
+   - CADD: 25.90
+   - AlphaMissense: 0.8401
+   - phyloP: 2.820
+================================================================================
+
+Variant #31: chr4:107631692 G>A
+Gene: PAPSS1
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr4:107631692
+   - Ref/Alt: G/A
+   - Gene: PAPSS1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 人群频率极低(AF=1.44e-05)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-2_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 1.4389e-05
+   - REVEL: 0.4620
+   - CADD: 27.10
+   - AlphaMissense: 0.6182
+   - phyloP: 1.790
+================================================================================
+
+Variant #32: chr4:169477323 A>C
+Gene: NEK1
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr4:169477323
+   - Ref/Alt: A/C
+   - Gene: NEK1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于NEK1功能域
+
+3. Benign Evidence:
+   [-] BS2: 在健康人群中观察到
+
+4. Classification Reason:
+   良性倾向(P-2_vs_B-3)
+
+5. Key Annotations:
+   - gnomAD AF: 0.0059515
+   - ClinVar: Conflicting_classifications_of_pathogenicity
+   - ClinVar Review: criteria_provided,_conflicting_classifications
+   - REVEL: 0.3720
+   - CADD: 22.60
+   - AlphaMissense: 0.8398
+   - phyloP: 0.666
+================================================================================
+
+Variant #33: chr5:44811105 T>G
+Gene: MRPS30
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr5:44811105
+   - Ref/Alt: T/G
+   - Gene: MRPS30
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PP3: 多个计算预测有害(REVEL=0.538, CADD=26.2, AlphaMissense=0.926)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-1_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 0.0032052
+   - REVEL: 0.5380
+   - CADD: 26.20
+   - AlphaMissense: 0.9258
+   - phyloP: 1.670
+================================================================================
+
+Variant #34: chr5:75379425 T>C
+Gene: CERT1
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr5:75379425
+   - Ref/Alt: T/C
+   - Gene: CERT1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 人群频率极低(AF=2.52e-05)
+
+3. Benign Evidence:
+   [-] BS2: 在健康人群中观察到
+
+4. Classification Reason:
+   良性倾向(P-2_vs_B-3)
+
+5. Key Annotations:
+   - gnomAD AF: 2.5183e-05
+   - REVEL: 0.4850
+   - CADD: 27.20
+   - AlphaMissense: 0.1123
+   - phyloP: 2.270
+================================================================================
+
+Variant #35: chr5:90855813 C>G
+Gene: ADGRV1
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr5:90855813
+   - Ref/Alt: C/G
+   - Gene: ADGRV1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于ADGRV1功能域
+   [+] PM2: 人群频率极低(AF=2.34e-05)
+   [+] PP3: 多个计算预测有害(REVEL=0.731, CADD=23.2, phyloP=2.58)
+
+3. Benign Evidence:
+   [-] BS2: 在健康人群中观察到
+
+4. Classification Reason:
+   致病倾向(P-5_vs_B-3)
+
+5. Key Annotations:
+   - gnomAD AF: 2.3449e-05
+   - ClinVar: Uncertain_significance
+   - ClinVar Review: criteria_provided,_multiple_submitters,_no_conflicts
+   - REVEL: 0.7310
+   - CADD: 23.20
+   - AlphaMissense: 0.3374
+   - phyloP: 2.580
+================================================================================
+
+Variant #36: chr5:103003035 C>G
+Gene: PAM
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr5:103003035
+   - Ref/Alt: C/G
+   - Gene: PAM
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PP3: 多个计算预测有害(REVEL=0.635, CADD=33.0, AlphaMissense=0.977, phyloP=2.52)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-1_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 0.0085363
+   - REVEL: 0.6350
+   - CADD: 33.00
+   - AlphaMissense: 0.9770
+   - phyloP: 2.520
+================================================================================
+
+Variant #37: chr5:132589791 G>C
+Gene: RAD50
+--------------------------------------------------------------------------------
+ACMG Classification: Likely_benign
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr5:132589791
+   - Ref/Alt: G/C
+   - Gene: RAD50
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于RAD50功能重要区域
+   [+] PM2: 人群频率极低(AF=1.16e-05)
+
+3. Benign Evidence:
+   [-] BP1: RAD50基因中错义突变通常良性
+   [-] BS2: 在健康人群中观察到
+
+4. Classification Reason:
+   1强+1支持良性证据
+
+5. Key Annotations:
+   - gnomAD AF: 1.1602e-05
+   - ClinVar: Uncertain_significance
+   - ClinVar Review: criteria_provided,_multiple_submitters,_no_conflicts
+   - REVEL: 0.2640
+   - CADD: 22.30
+   - AlphaMissense: 0.2246
+   - phyloP: 3.810
+================================================================================
+
+Variant #38: chr5:151296240 C>T
+Gene: SLC36A3
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr5:151296240
+   - Ref/Alt: C/T
+   - Gene: SLC36A3
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   证据不足
+
+5. Key Annotations:
+   - gnomAD AF: 0.009197
+   - REVEL: 0.4490
+   - CADD: 25.40
+   - AlphaMissense: 0.9504
+   - phyloP: 1.680
+================================================================================
+
+Variant #39: chr5:178153531 C>T
+Gene: NHP2
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr5:178153531
+   - Ref/Alt: C/T
+   - Gene: NHP2
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于NHP2功能重要区域
+
+3. Benign Evidence:
+   [-] BS2: 在健康人群中观察到
+
+4. Classification Reason:
+   良性倾向(P-2_vs_B-3)
+
+5. Key Annotations:
+   - gnomAD AF: 0.00080494
+   - ClinVar: Uncertain_significance
+   - ClinVar Review: criteria_provided,_multiple_submitters,_no_conflicts
+   - REVEL: 0.3760
+   - CADD: 26.90
+   - AlphaMissense: 0.9483
+================================================================================
+
+Variant #40: chr6:31645145 T>TG
+Gene: BAG6
+--------------------------------------------------------------------------------
+ACMG Classification: Likely_pathogenic
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr6:31645145
+   - Ref/Alt: T/TG
+   - Gene: BAG6
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 人群频率极低(AF=2.99e-05)
+   [+] PVS1: LOF变异(frameshift_variant)在LOF不耐受基因BAG6
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   PVS1+1中等证据
+
+5. Key Annotations:
+   - gnomAD AF: 2.9883e-05
+================================================================================
+
+Variant #41: chr6:32641429 G>GTCTGGTGTTTGCCTGTTCTCAGACAATTTAGATTTGACCCGCAATTTGCACTGACAAACATCGCTGTCCTAAAACATAACTTGAACAGT
+Gene: HLA-DQA1
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr6:32641429
+   - Ref/Alt: G/GTCTGGTGTTTGCCTGTTCTCAGACAATTTAGATTTGACCCGCAATTTGCACTGACAAACATCGCTGTCCTAAAACATAACTTGAACAGT
+   - Gene: HLA-DQA1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 在gnomAD中未发现
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-2_vs_B-0)
+
+5. Key Annotations:
+   (None)
+================================================================================
+
+Variant #42: chr6:32641430 CCTGGCGGTGGCCTGAGTTCAGCAAATTTGGAGGTTTTGACCCGCAGGGTGCACTGAGAAACATGGCTGTGGCAAAACACAACTTGAACATCA>C
+Gene: HLA-DQA1
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr6:32641430
+   - Ref/Alt: CCTGGCGGTGGCCTGAGTTCAGCAAATTTGGAGGTTTTGACCCGCAGGGTGCACTGAGAAACATGGCTGTGGCAAAACACAACTTGAACATCA/C
+   - Gene: HLA-DQA1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 在gnomAD中未发现
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-2_vs_B-0)
+
+5. Key Annotations:
+   (None)
+================================================================================
+
+Variant #43: chr6:32664883 T>TCTCGCCGCTGCCTCCTGTCCTCTGGGGTGGAACAAACGGGGCTCAGGTTCCAGAGGCCACGACCCTTCGCCCCTCCTGGCGCAGAGACTTGGGGCCAAGGGTGGGCCTCGCAGAGGGGCGACGCCGCTCACCTCGCCGCTGCAAGGTCGTGCGGAGCTCCAACTGGTAGTTGTGTCTGCACACCCTGTCCACCGCCGCCCGTTTCCTCTCCAGGATG
+Gene: HLA-DQB1
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr6:32664883
+   - Ref/Alt: T/TCTCGCCGCTGCCTCCTGTCCTCTGGGGTGGAACAAACGGGGCTCAGGTTCCAGAGGCCACGACCCTTCGCCCCTCCTGGCGCAGAGACTTGGGGCCAAGGGTGGGCCTCGCAGAGGGGCGACGCCGCTCACCTCGCCGCTGCAAGGTCGTGCGGAGCTCCAACTGGTAGTTGTGTCTGCACACCCTGTCCACCGCCGCCCGTTTCCTCTCCAGGATG
+   - Gene: HLA-DQB1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 在gnomAD中未发现
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-2_vs_B-0)
+
+5. Key Annotations:
+   (None)
+================================================================================
+
+Variant #44: chr6:132570617 A>G
+Gene: TAAR6
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr6:132570617
+   - Ref/Alt: A/G
+   - Gene: TAAR6
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   [-] BP6: ClinVar报告为良性
+
+4. Classification Reason:
+   良性倾向(P-0_vs_B-1)
+
+5. Key Annotations:
+   - gnomAD AF: 0.0058769
+   - ClinVar: Benign
+   - ClinVar Review: criteria_provided,_single_submitter
+   - REVEL: 0.2590
+   - CADD: 23.60
+   - AlphaMissense: 0.6748
+   - phyloP: 1.850
+================================================================================
+
+Variant #45: chr6:160706469 A>G
+Gene: PLG
+--------------------------------------------------------------------------------
+ACMG Classification: Likely_pathogenic
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr6:160706469
+   - Ref/Alt: A/G
+   - Gene: PLG
+   - AA Change: K38E
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于PLG功能域
+   [+] PP5: ClinVar报告为致病
+   [+] PS1: 与已知致病变异相同的氨基酸改变
+
+3. Benign Evidence:
+   [-] BS2: 在健康人群中观察到
+
+4. Classification Reason:
+   1强+1中等证据
+
+5. Key Annotations:
+   - gnomAD AF: 6.408200e-03
+   - ClinVar: Pathogenic/Likely_pathogenic
+   - ClinVar Review: criteria_provided
+   - REVEL: 0.642
+   - CADD: 16.80
+   - MetaRNN: 0.194662
+   - AlphaMissense: 0.1986
+   - ClinPred: 0.0630777703033121
+   - PrimateAI: 0.287448972464
+   - ESM1b: -6.023194
+================================================================================
+
+Variant #46: chr7:127582264 T>C
+Gene: GCC1
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr7:127582264
+   - Ref/Alt: T/C
+   - Gene: GCC1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   证据不足
+
+5. Key Annotations:
+   - gnomAD AF: 0.00046133
+   - REVEL: 0.2180
+   - CADD: 24.30
+   - AlphaMissense: 0.1320
+   - phyloP: 2.810
+================================================================================
+
+Variant #47: chr7:129460332 T>G
+Gene: STRIP2
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr7:129460332
+   - Ref/Alt: T/G
+   - Gene: STRIP2
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PP3: 多个计算预测有害(REVEL=0.587, CADD=24.8, phyloP=5.70)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-1_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 0.0015424
+   - REVEL: 0.5870
+   - CADD: 24.80
+   - AlphaMissense: 0.5122
+   - phyloP: 5.700
+================================================================================
+
+Variant #48: chr7:149874130 T>C
+Gene: ATP6V0E2
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr7:149874130
+   - Ref/Alt: T/C
+   - Gene: ATP6V0E2
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   证据不足
+
+5. Key Annotations:
+   - gnomAD AF: 0.001183
+   - ClinVar: Uncertain_significance
+   - ClinVar Review: criteria_provided,_single_submitter
+   - REVEL: 0.2300
+   - CADD: 22.90
+   - AlphaMissense: 0.3289
+   - phyloP: 1.840
+================================================================================
+
+Variant #49: chr7:151235481 C>T
+Gene: CHPF2
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr7:151235481
+   - Ref/Alt: C/T
+   - Gene: CHPF2
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 人群频率极低(AF=8.96e-05)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-2_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 8.9606e-05
+   - ClinVar: Uncertain_significance
+   - ClinVar Review: criteria_provided,_single_submitter
+   - REVEL: 0.4510
+   - CADD: 33.00
+   - AlphaMissense: 0.6824
+   - phyloP: 1.690
+================================================================================
+
+Variant #50: chr8:11845732 C>G
+Gene: CTSB
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr8:11845732
+   - Ref/Alt: C/G
+   - Gene: CTSB
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 人群频率极低(AF=3.51e-05)
+   [+] PP3: 多个计算预测有害(REVEL=0.874, CADD=27.6, AlphaMissense=0.939)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-3_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 3.5074e-05
+   - ClinVar: Uncertain_significance
+   - ClinVar Review: criteria_provided,_single_submitter
+   - REVEL: 0.8740
+   - CADD: 27.60
+   - AlphaMissense: 0.9394
+   - phyloP: 1.920
+================================================================================
+
+Variant #51: chr8:67422547 G>A
+Gene: CPA6
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr8:67422547
+   - Ref/Alt: G/A
+   - Gene: CPA6
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于CPA6功能域
+   [+] PP3: 多个计算预测有害(REVEL=0.711, CADD=29.7, AlphaMissense=0.788)
+
+3. Benign Evidence:
+   [-] BS2: 在健康人群中观察到
+
+4. Classification Reason:
+   证据平衡(P-3_vs_B-3)
+
+5. Key Annotations:
+   - gnomAD AF: 0.00027249
+   - ClinVar: Uncertain_significance
+   - ClinVar Review: criteria_provided,_multiple_submitters,_no_conflicts
+   - REVEL: 0.7110
+   - CADD: 29.70
+   - AlphaMissense: 0.7880
+   - phyloP: 1.990
+================================================================================
+
+Variant #52: chr8:109464837 C>T
+Gene: PKHD1L1
+--------------------------------------------------------------------------------
+ACMG Classification: Likely_benign
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr8:109464837
+   - Ref/Alt: C/T
+   - Gene: PKHD1L1
+   - AA Change: Q2669X
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   [-] BP6: ClinVar报告为良性
+   [-] BS2: 在健康人群中观察到
+
+4. Classification Reason:
+   1强+1支持良性证据
+
+5. Key Annotations:
+   - gnomAD AF: 2.170720e-03
+   - ClinVar: Likely_benign
+   - ClinVar Review: no_assertion_criteria_provided
+   - CADD: 42
+   - ESM1b: -13.862618
+================================================================================
+
+Variant #53: chr8:138594184 A>T
+Gene: COL22A1
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr8:138594184
+   - Ref/Alt: A/T
+   - Gene: COL22A1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   [-] BP6: ClinVar报告为良性
+
+4. Classification Reason:
+   良性倾向(P-0_vs_B-1)
+
+5. Key Annotations:
+   - gnomAD AF: 0.0056741
+   - ClinVar: Likely_benign
+   - ClinVar Review: criteria_provided,_single_submitter
+   - REVEL: 0.5670
+   - CADD: 24.10
+   - AlphaMissense: 0.4529
+   - phyloP: 2.290
+================================================================================
+
+Variant #54: chr8:140879490 G>A
+Gene: PTK2
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr8:140879490
+   - Ref/Alt: G/A
+   - Gene: PTK2
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于PTK2功能重要区域
+   [+] PM2: 人群频率极低(AF=9.00e-07)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-4_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 8.9992e-07
+   - REVEL: 0.4920
+   - CADD: 25.10
+   - AlphaMissense: 0.0998
+   - phyloP: 2.430
+================================================================================
+
+Variant #55: chr9:122228685 G>C
+Gene: LHX6
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr9:122228685
+   - Ref/Alt: G/C
+   - Gene: LHX6
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于LHX6功能重要区域
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-2_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 0.00017233
+   - ClinVar: Uncertain_significance
+   - ClinVar Review: criteria_provided,_single_submitter
+   - REVEL: 0.3780
+   - CADD: 22.90
+   - phyloP: 1.160
+================================================================================
+
+Variant #56: chr9:128713304 G>C
+Gene: PKN3
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr9:128713304
+   - Ref/Alt: G/C
+   - Gene: PKN3
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 人群频率极低(AF=5.04e-05)
+   [+] PP3: 多个计算预测有害(REVEL=0.654, CADD=29.1, AlphaMissense=0.756)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-3_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 5.036e-05
+   - REVEL: 0.6540
+   - CADD: 29.10
+   - AlphaMissense: 0.7561
+   - phyloP: 1.740
+================================================================================
+
+Variant #57: chr9:129059206 G>A
+Gene: MIGA2
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr9:129059206
+   - Ref/Alt: G/A
+   - Gene: MIGA2
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   证据不足
+
+5. Key Annotations:
+   - gnomAD AF: 0.00011965
+   - REVEL: 0.2880
+   - CADD: 30.00
+   - AlphaMissense: 0.1302
+   - phyloP: 0.613
+================================================================================
+
+Variant #58: chr10:26088402 C>T
+Gene: MYO3A
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr10:26088402
+   - Ref/Alt: C/T
+   - Gene: MYO3A
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于MYO3A功能域
+
+3. Benign Evidence:
+   [-] BS2: 在健康人群中观察到
+
+4. Classification Reason:
+   良性倾向(P-2_vs_B-3)
+
+5. Key Annotations:
+   - gnomAD AF: 0.0043963
+   - ClinVar: Conflicting_classifications_of_pathogenicity
+   - ClinVar Review: criteria_provided,_conflicting_classifications
+   - REVEL: 0.7670
+   - CADD: 27.00
+   - AlphaMissense: 0.2099
+   - phyloP: 1.100
+================================================================================
+
+Variant #59: chr10:87226077 TC>T
+Gene: NUTM2A
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr10:87226077
+   - Ref/Alt: TC/T
+   - Gene: NUTM2A
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 人群频率极低(AF=5.65e-05)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-2_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 5.652e-05
+================================================================================
+
+Variant #60: chr10:87933147 C>T
+Gene: PTEN
+--------------------------------------------------------------------------------
+ACMG Classification: Pathogenic
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr10:87933147
+   - Ref/Alt: C/T
+   - Gene: PTEN
+   - AA Change: R303X
+
+2. Pathogenic Evidence:
+   [+] PM2: 人群频率极低(AF=3.38e-05)
+   [+] PM5: 与已知致病变异相同位置的新错义突变
+   [+] PP5: ClinVar报告为致病
+   [+] PVS1: 无义突变(aaalt=X)在LOF不耐受基因PTEN
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   PVS1+2个中等致病证据
+
+5. Key Annotations:
+   - gnomAD AF: 3.378380e-05
+   - ClinVar: Pathogenic
+   - ClinVar Review: criteria_provided
+   - CADD: 42
+   - ESM1b: -9.371941
+================================================================================
+
+Variant #61: chr10:103139440 C>G
+Gene: NT5C2
+--------------------------------------------------------------------------------
+ACMG Classification: Likely_benign
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr10:103139440
+   - Ref/Alt: C/G
+   - Gene: NT5C2
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于NT5C2功能重要区域
+
+3. Benign Evidence:
+   [-] BP1: NT5C2基因中错义突变通常良性
+   [-] BS2: 在健康人群中观察到
+
+4. Classification Reason:
+   1强+1支持良性证据
+
+5. Key Annotations:
+   - gnomAD AF: 0.00021405
+   - ClinVar: Uncertain_significance
+   - ClinVar Review: criteria_provided,_multiple_submitters,_no_conflicts
+   - REVEL: 0.1820
+   - CADD: 24.10
+   - AlphaMissense: 0.7118
+   - phyloP: -0.152
+================================================================================
+
+Variant #62: chr11:299471 C>T
+Gene: IFITM5
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr11:299471
+   - Ref/Alt: C/T
+   - Gene: IFITM5
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于IFITM5功能重要区域
+   [+] PM2: 人群频率极低(AF=1.99e-05)
+
+3. Benign Evidence:
+   [-] BS2: 在健康人群中观察到
+
+4. Classification Reason:
+   致病倾向(P-4_vs_B-3)
+
+5. Key Annotations:
+   - gnomAD AF: 1.9884e-05
+   - REVEL: 0.3560
+   - CADD: 23.90
+   - AlphaMissense: 0.1669
+   - phyloP: 1.140
+================================================================================
+
+Variant #63: chr11:55555342 G>T
+Gene: OR4C15
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr11:55555342
+   - Ref/Alt: G/T
+   - Gene: OR4C15
+   - AA Change: E346X
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   [-] BS1: 人群频率较高(AF=0.0143)
+
+4. Classification Reason:
+   良性倾向(P-0_vs_B-3)
+
+5. Key Annotations:
+   - gnomAD AF: 1.425440e-02
+   - CADD: 39
+   - ESM1b: -11.895566
+================================================================================
+
+Variant #64: chr12:2834758 G>A
+Gene: NRIP2
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr12:2834758
+   - Ref/Alt: G/A
+   - Gene: NRIP2
+   - AA Change: R76X
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   证据不足
+
+5. Key Annotations:
+   - gnomAD AF: 1.449170e-03
+   - CADD: 35
+   - ESM1b: -9.944859
+================================================================================
+
+Variant #65: chr12:47980970 T>A
+Gene: COL2A1
+--------------------------------------------------------------------------------
+ACMG Classification: Likely_pathogenic
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr12:47980970
+   - Ref/Alt: T/A
+   - Gene: COL2A1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 在gnomAD中未发现
+   [+] PVS1: LOF变异(splice_acceptor_variant&intron_variant)在LOF不耐受基因COL2A1
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   PVS1+1中等证据
+
+5. Key Annotations:
+   (None)
+================================================================================
+
+Variant #66: chr12:51346629 G>GC
+Gene: CELA1
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr12:51346629
+   - Ref/Alt: G/GC
+   - Gene: CELA1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 在gnomAD中未发现
+
+3. Benign Evidence:
+   [-] BP6: ClinVar报告为良性
+
+4. Classification Reason:
+   致病倾向(P-2_vs_B-1)
+
+5. Key Annotations:
+   - ClinVar: Benign
+   - ClinVar Review: criteria_provided,_single_submitter
+================================================================================
+
+Variant #67: chr12:51346630 GAC>G
+Gene: CELA1
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr12:51346630
+   - Ref/Alt: GAC/G
+   - Gene: CELA1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 人群频率极低(AF=2.29e-05)
+
+3. Benign Evidence:
+   [-] BP6: ClinVar报告为良性
+
+4. Classification Reason:
+   致病倾向(P-2_vs_B-1)
+
+5. Key Annotations:
+   - gnomAD AF: 2.2885e-05
+   - ClinVar: Benign
+   - ClinVar Review: criteria_provided,_single_submitter
+================================================================================
+
+Variant #68: chr12:102840474 T>C
+Gene: PAH
+--------------------------------------------------------------------------------
+ACMG Classification: Likely_benign
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr12:102840474
+   - Ref/Alt: T/C
+   - Gene: PAH
+   - AA Change: Y447C
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于PAH功能重要区域
+   [+] PP3: 多个计算预测有害(REVEL=0.982, CADD=26.4, MetaRNN=0.980, AlphaMissense=0.812, ClinPred=0.939, ESM1b=-10.47)
+   [+] PP5: ClinVar报告为致病
+   [+] PS1: 与已知致病变异相同的氨基酸改变
+   [+] PS3: ClinVar专家评审的致病证据
+
+3. Benign Evidence:
+   [-] BP1: PAH基因中错义突变通常良性
+   [-] BS2: 在健康人群中观察到
+
+4. Classification Reason:
+   1强+1支持良性证据
+
+5. Key Annotations:
+   - gnomAD AF: 4.500330e-04
+   - ClinVar: Pathogenic
+   - ClinVar Review: reviewed_by_expert_panel
+   - REVEL: 0.982
+   - CADD: 26.4
+   - MetaRNN: 0.980418
+   - AlphaMissense: 0.8118
+   - ClinPred: 0.938729166984558
+   - PrimateAI: 0.646943926811
+   - ESM1b: -10.470091
+================================================================================
+
+Variant #69: chr13:77017068 CT>C
+Gene: CLN5
+--------------------------------------------------------------------------------
+ACMG Classification: Likely_pathogenic
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr13:77017068
+   - Ref/Alt: CT/C
+   - Gene: CLN5
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 在gnomAD中未发现
+   [+] PVS1: LOF变异(frameshift_variant)在LOF不耐受基因CLN5
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   PVS1+1中等证据
+
+5. Key Annotations:
+   (None)
+================================================================================
+
+Variant #70: chr14:21087322 G>A
+Gene: ARHGEF40
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr14:21087322
+   - Ref/Alt: G/A
+   - Gene: ARHGEF40
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   证据不足
+
+5. Key Annotations:
+   - gnomAD AF: 0.0071382
+   - REVEL: 0.1320
+   - CADD: 28.70
+   - AlphaMissense: 0.3973
+   - phyloP: 2.500
+================================================================================
+
+Variant #71: chr14:24213408 C>G
+Gene: CHMP4A
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr14:24213408
+   - Ref/Alt: C/G
+   - Gene: CHMP4A
+   - AA Change: .-1.
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   证据不足
+
+5. Key Annotations:
+   - gnomAD AF: 1.758600e-03
+   - CADD: 29.1
+================================================================================
+
+Variant #72: chr14:31129221 T>C
+Gene: HECTD1
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr14:31129221
+   - Ref/Alt: T/C
+   - Gene: HECTD1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于HECTD1功能重要区域
+   [+] PM2: 人群频率极低(AF=8.99e-07)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-4_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 8.9928e-07
+   - REVEL: 0.1940
+   - CADD: 32.00
+   - AlphaMissense: 0.3133
+   - phyloP: 5.340
+================================================================================
+
+Variant #73: chr14:74781799 G>A
+Gene: YLPM1
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr14:74781799
+   - Ref/Alt: G/A
+   - Gene: YLPM1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于YLPM1功能重要区域
+   [+] PM2: 人群频率极低(AF=8.01e-05)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-4_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 8.006e-05
+   - ClinVar: Uncertain_significance
+   - ClinVar Review: criteria_provided,_single_submitter
+   - REVEL: 0.1340
+   - CADD: 23.70
+   - AlphaMissense: 0.4773
+   - phyloP: 1.870
+================================================================================
+
+Variant #74: chr14:96086522 G>C
+Gene: C14ORF132
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr14:96086522
+   - Ref/Alt: G/C
+   - Gene: C14ORF132
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   证据不足
+
+5. Key Annotations:
+   - gnomAD AF: 0.0038314
+   - CADD: 22.20
+   - AlphaMissense: 0.6768
+   - phyloP: 2.050
+================================================================================
+
+Variant #75: chr14:102042083 T>C
+Gene: DYNC1H1
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr14:102042083
+   - Ref/Alt: T/C
+   - Gene: DYNC1H1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于DYNC1H1功能域
+   [+] PM2: 在gnomAD中未发现
+   [+] PP3: 多个计算预测有害(REVEL=0.827, CADD=26.2, AlphaMissense=0.997)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-5_vs_B-0)
+
+5. Key Annotations:
+   - REVEL: 0.8270
+   - CADD: 26.20
+   - AlphaMissense: 0.9971
+   - phyloP: 2.350
+================================================================================
+
+Variant #76: chr15:23646089 G>GG
+Gene: MAGEL2
+--------------------------------------------------------------------------------
+ACMG Classification: Likely_pathogenic
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr15:23646089
+   - Ref/Alt: G/GG
+   - Gene: MAGEL2
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 在gnomAD中未发现
+   [+] PVS1: LOF变异(frameshift_variant)在LOF不耐受基因MAGEL2
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   PVS1+1中等证据
+
+5. Key Annotations:
+   (None)
+================================================================================
+
+Variant #77: chr15:63656169 C>T
+Gene: HERC1
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr15:63656169
+   - Ref/Alt: C/T
+   - Gene: HERC1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 人群频率极低(AF=4.95e-05)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-2_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 4.9496e-05
+   - ClinVar: Uncertain_significance
+   - ClinVar Review: criteria_provided,_multiple_submitters,_no_conflicts
+   - CADD: 17.23
+   - phyloP: -0.513
+================================================================================
+
+Variant #78: chr15:71256656 C>T
+Gene: THSD4
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr15:71256656
+   - Ref/Alt: C/T
+   - Gene: THSD4
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 在gnomAD中未发现
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-2_vs_B-0)
+
+5. Key Annotations:
+   - REVEL: 0.3920
+   - CADD: 25.20
+   - AlphaMissense: 0.2397
+   - phyloP: 2.770
+================================================================================
+
+Variant #79: chr16:683424 C>G
+Gene: STUB1
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr16:683424
+   - Ref/Alt: C/G
+   - Gene: STUB1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于STUB1功能重要区域
+
+3. Benign Evidence:
+   [-] BP6: ClinVar报告为良性
+
+4. Classification Reason:
+   致病倾向(P-2_vs_B-1)
+
+5. Key Annotations:
+   - gnomAD AF: 0.0069593
+   - ClinVar: Likely_benign
+   - ClinVar Review: criteria_provided,_single_submitter
+   - CADD: 32.00
+   - AlphaMissense: 0.9808
+   - phyloP: 0.501
+================================================================================
+
+Variant #80: chr17:78466792 C>G
+Gene: DNAH17
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr17:78466792
+   - Ref/Alt: C/G
+   - Gene: DNAH17
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于DNAH17功能域
+   [+] PM2: 人群频率极低(AF=1.45e-05)
+   [+] PP3: 多个计算预测有害(REVEL=0.527, CADD=28.1, AlphaMissense=0.978)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-5_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 1.4481e-05
+   - REVEL: 0.5270
+   - CADD: 28.10
+   - AlphaMissense: 0.9778
+   - phyloP: 1.870
+================================================================================
+
+Variant #81: chr19:9758010 T>A
+Gene: ZNF846
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr19:9758010
+   - Ref/Alt: T/A
+   - Gene: ZNF846
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PP3: 多个计算预测有害(REVEL=0.547, CADD=20.4, AlphaMissense=0.871)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-1_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 0.009362
+   - REVEL: 0.5470
+   - CADD: 20.40
+   - AlphaMissense: 0.8712
+   - phyloP: 1.030
+================================================================================
+
+Variant #82: chr19:11111522 G>A
+Gene: LDLR
+--------------------------------------------------------------------------------
+ACMG Classification: Pathogenic
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr19:11111522
+   - Ref/Alt: G/A
+   - Gene: LDLR
+   - AA Change: E443K
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于LDLR功能域
+   [+] PM2: 人群频率极低(AF=1.10e-05)
+   [+] PP2: LDLR基因中错义突变常致病
+   [+] PP3: 多个计算预测有害(REVEL=0.976, CADD=28.5, MetaRNN=0.993, AlphaMissense=0.880, ClinPred=1.000, ESM1b=-11.90)
+   [+] PP5: ClinVar报告为致病
+   [+] PS3: ClinVar专家评审的致病证据
+
+3. Benign Evidence:
+   [-] BP1: LDLR基因中错义突变通常良性
+
+4. Classification Reason:
+   1强+2中等+3支持证据
+
+5. Key Annotations:
+   - gnomAD AF: 1.098250e-05
+   - ClinVar: Likely_pathogenic
+   - ClinVar Review: reviewed_by_expert_panel
+   - REVEL: 0.976
+   - CADD: 28.5
+   - MetaRNN: 0.992866
+   - AlphaMissense: 0.8804
+   - ClinPred: 0.999575793743134
+   - PrimateAI: 0.557373523712
+   - ESM1b: -11.899055
+================================================================================
+
+Variant #83: chr19:13144774 C>T
+Gene: STX10
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr19:13144774
+   - Ref/Alt: C/T
+   - Gene: STX10
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 人群频率极低(AF=5.80e-05)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-2_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 5.7997e-05
+   - REVEL: 0.2780
+   - CADD: 25.80
+   - AlphaMissense: 0.1977
+   - phyloP: 1.760
+================================================================================
+
+Variant #84: chr19:17511703 G>A
+Gene: PGLS
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr19:17511703
+   - Ref/Alt: G/A
+   - Gene: PGLS
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   证据不足
+
+5. Key Annotations:
+   - gnomAD AF: 0.0027667
+   - ClinVar: Uncertain_significance
+   - ClinVar Review: criteria_provided,_single_submitter
+   - REVEL: 0.2710
+   - CADD: 28.10
+   - AlphaMissense: 0.8104
+   - phyloP: 2.090
+================================================================================
+
+Variant #85: chr19:32676869 C>CG
+Gene: RGS9BP
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr19:32676869
+   - Ref/Alt: C/CG
+   - Gene: RGS9BP
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PVS1: LOF变异(frameshift_variant)在LOF不耐受基因RGS9BP
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-4_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 0.0019858
+   - ClinVar: Conflicting_classifications_of_pathogenicity
+   - ClinVar Review: criteria_provided,_conflicting_classifications
+================================================================================
+
+Variant #86: chr19:57428458 G>A
+Gene: AC003002.2
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr19:57428458
+   - Ref/Alt: G/A
+   - Gene: AC003002.2
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 在gnomAD中未发现
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-2_vs_B-0)
+
+5. Key Annotations:
+   (None)
+================================================================================
+
+Variant #87: chr19:57475736 C>T
+Gene: ZNF772
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr19:57475736
+   - Ref/Alt: C/T
+   - Gene: ZNF772
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   证据不足
+
+5. Key Annotations:
+   - gnomAD AF: 0.0081914
+================================================================================
+
+Variant #88: chr21:29591128 A>G
+Gene: GRIK1
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr21:29591128
+   - Ref/Alt: A/G
+   - Gene: GRIK1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   证据不足
+
+5. Key Annotations:
+   - gnomAD AF: 0.002249
+   - REVEL: 0.2180
+   - CADD: 24.70
+   - AlphaMissense: 0.1047
+   - phyloP: 2.840
+================================================================================
+
+Variant #89: chr22:24728176 C>T
+Gene: PIWIL3
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr22:24728176
+   - Ref/Alt: C/T
+   - Gene: PIWIL3
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   证据不足
+
+5. Key Annotations:
+   - gnomAD AF: 0.0096737
+================================================================================
+
+Variant #90: chr22:32408189 G>T
+Gene: RTCB
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr22:32408189
+   - Ref/Alt: G/T
+   - Gene: RTCB
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 人群频率极低(AF=2.16e-05)
+   [+] PP3: 多个计算预测有害(REVEL=0.690, CADD=29.6, AlphaMissense=0.749, phyloP=2.70)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   致病倾向(P-3_vs_B-0)
+
+5. Key Annotations:
+   - gnomAD AF: 2.1584e-05
+   - REVEL: 0.6900
+   - CADD: 29.60
+   - AlphaMissense: 0.7491
+   - phyloP: 2.700
+================================================================================
+
+Variant #91: chr22:36292132 G>A
+Gene: MYH9
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr22:36292132
+   - Ref/Alt: G/A
+   - Gene: MYH9
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM1: 位于MYH9功能域
+
+3. Benign Evidence:
+   [-] BS2: 在健康人群中观察到
+
+4. Classification Reason:
+   良性倾向(P-2_vs_B-3)
+
+5. Key Annotations:
+   - gnomAD AF: 0.0023831
+   - ClinVar: Conflicting_classifications_of_pathogenicity
+   - ClinVar Review: criteria_provided,_conflicting_classifications
+   - REVEL: 0.6700
+   - CADD: 27.90
+   - AlphaMissense: 0.1317
+   - phyloP: 2.050
+================================================================================
+
+Variant #92: chr22:39512414 C>T
+Gene: MIEF1
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr22:39512414
+   - Ref/Alt: C/T
+   - Gene: MIEF1
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   证据不足
+
+5. Key Annotations:
+   - gnomAD AF: 0.0079488
+   - ClinVar: Conflicting_classifications_of_pathogenicity
+   - ClinVar Review: criteria_provided,_conflicting_classifications
+   - REVEL: 0.1630
+   - CADD: 34.00
+   - AlphaMissense: 0.5938
+   - phyloP: 1.840
+================================================================================
+
+Variant #93: chr22:50244017 T>C
+Gene: HDAC10
+--------------------------------------------------------------------------------
+ACMG Classification: Uncertain_significance
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chr22:50244017
+   - Ref/Alt: T/C
+   - Gene: HDAC10
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   (None)
+
+3. Benign Evidence:
+   [-] BS2: 在健康人群中观察到
+
+4. Classification Reason:
+   良性倾向(P-0_vs_B-3)
+
+5. Key Annotations:
+   - gnomAD AF: 0.00034674
+   - ClinVar: Uncertain_significance
+   - ClinVar Review: criteria_provided,_multiple_submitters,_no_conflicts
+   - REVEL: 0.4300
+   - CADD: 24.80
+   - AlphaMissense: 0.3065
+   - phyloP: 1.030
+================================================================================
+
+Variant #94: chrX:45076787 G>GG
+Gene: KDM6A
+--------------------------------------------------------------------------------
+ACMG Classification: Likely_pathogenic
+--------------------------------------------------------------------------------
+1. Basic Information:
+   - Position: chrX:45076787
+   - Ref/Alt: G/GG
+   - Gene: KDM6A
+   - AA Change: ..
+
+2. Pathogenic Evidence:
+   [+] PM2: 在gnomAD中未发现
+   [+] PVS1: LOF变异(frameshift_variant)在LOF不耐受基因KDM6A
+
+3. Benign Evidence:
+   (None)
+
+4. Classification Reason:
+   PVS1+1中等证据
+
+5. Key Annotations:
+   (None)
+================================================================================
+

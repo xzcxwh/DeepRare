@@ -1,0 +1,353 @@
+====================================================================================================
+变异打分结果 v2.0 - TOP 50
+====================================================================================================
+
+总变异数: 617
+分数范围: 0 - 11 (最高 11 分)
+
+
+打分规则:
+  - AlphaMissense ≥ 0.564: +2
+  - REVEL ≥ 0.5: +2
+  - CADD ≥ 20: +2
+  - MetaRNN ≥ 0.5: +1
+  - PrimateAI ≥ 0.7: +1
+  - ClinPred ≥ 0.5: +1
+  - ESM1b < -3: +1
+  - PhyloP ≥ 2: +1
+
+选取 TOP 50 变异 (含同分): 实际选取 63 个
+
+----------------------------------------------------------------------------------------------------
+排名   位置                   基因              变异           功能影响                           分数    
+----------------------------------------------------------------------------------------------------
+1    chr2:177875895    PDE11A          A>C          missense_variant               11    
+     AM:0.671 (≥0.564) +2  REVEL:0.533 (≥0.5) +2  CADD:27.9 (≥20) +2
+     MetaRNN:0.722 (≥0.5) +1  PrimateAI:0.773 (≥0.7) +1  ClinPred:0.949 (≥0.5) +1
+     ESM1b:-15.908 (<-3) +1  PhyloP:2.27 (≥2) +1
+
+2    chr22:32408189     RTCB            G>T          missense_variant               11    
+     AM:0.749 (≥0.564) +2  REVEL:0.690 (≥0.5) +2  CADD:29.6 (≥20) +2
+     MetaRNN:0.954 (≥0.5) +1  PrimateAI:0.874 (≥0.7) +1  ClinPred:0.999 (≥0.5) +1
+     ESM1b:-14.031 (<-3) +1  PhyloP:2.70 (≥2) +1
+
+3    chr1:65218865     AK4             G>C          missense_variant               10    
+     AM:0.962 (≥0.564) +2  REVEL:0.909 (≥0.5) +2  CADD:27.1 (≥20) +2
+     MetaRNN:0.976 (≥0.5) +1  PrimateAI:0.594 (<0.7) +0  ClinPred:0.998 (≥0.5) +1
+     ESM1b:-16.032 (<-3) +1  PhyloP:2.18 (≥2) +1
+
+4    chr17:78466792     DNAH17          C>G          missense_variant               10    
+     AM:0.978 (≥0.564) +2  REVEL:0.527 (≥0.5) +2  CADD:28.1 (≥20) +2
+     MetaRNN:0.815 (≥0.5) +1  PrimateAI:0.769 (≥0.7) +1  ClinPred:0.990 (≥0.5) +1
+     ESM1b:-14.765 (<-3) +1  PhyloP:1.87 (<2) +0
+
+5    chr3:14821133     FGD5            G>A          missense_variant               10    
+     AM:0.966 (≥0.564) +2  REVEL:0.731 (≥0.5) +2  CADD:27.1 (≥20) +2
+     MetaRNN:0.675 (≥0.5) +1  PrimateAI:0.596 (<0.7) +0  ClinPred:0.978 (≥0.5) +1
+     ESM1b:-13.409 (<-3) +1  PhyloP:2.16 (≥2) +1
+
+6    chr3:182848542    ATP11B          G>T          missense_variant               10    
+     AM:0.791 (≥0.564) +2  REVEL:0.734 (≥0.5) +2  CADD:33.0 (≥20) +2
+     MetaRNN:0.422 (<0.5) +0  PrimateAI:0.833 (≥0.7) +1  ClinPred:0.955 (≥0.5) +1
+     ESM1b:-6.874 (<-3) +1  PhyloP:2.80 (≥2) +1
+
+7    chr4:75782851     USO1            T>C          missense_variant               9     
+     AM:0.840 (≥0.564) +2  REVEL:0.535 (≥0.5) +2  CADD:25.9 (≥20) +2
+     MetaRNN:0.424 (<0.5) +0  PrimateAI:0.885 (≥0.7) +1  ClinPred:0.220 (<0.5) +0
+     ESM1b:-8.337 (<-3) +1  PhyloP:2.82 (≥2) +1
+
+8    chr8:11845732     CTSB            C>G          missense_variant               9     
+     AM:0.944 (≥0.564) +2  REVEL:0.874 (≥0.5) +2  CADD:27.6 (≥20) +2
+     MetaRNN:0.962 (≥0.5) +1  PrimateAI:0.628 (<0.7) +0  ClinPred:0.995 (≥0.5) +1
+     ESM1b:-12.676 (<-3) +1  PhyloP:1.92 (<2) +0
+
+9    chr9:128713304    PKN3            G>C          missense_variant               9     
+     AM:0.756 (≥0.564) +2  REVEL:0.654 (≥0.5) +2  CADD:29.1 (≥20) +2
+     MetaRNN:0.850 (≥0.5) +1  PrimateAI:0.653 (<0.7) +0  ClinPred:0.996 (≥0.5) +1
+     ESM1b:-13.050 (<-3) +1  PhyloP:1.74 (<2) +0
+
+10   chr1:9735980      CLSTN1          C>T          missense_variant               8     
+     AM:0.344 (<0.564) +0  REVEL:0.597 (≥0.5) +2  CADD:34.0 (≥20) +2
+     MetaRNN:0.794 (≥0.5) +1  PrimateAI:0.687 (<0.7) +0  ClinPred:0.912 (≥0.5) +1
+     ESM1b:-9.890 (<-3) +1  PhyloP:2.33 (≥2) +1
+
+11   chr1:115705205    CASQ2           T>C          missense_variant               8     
+     AM:0.440 (<0.564) +0  REVEL:0.750 (≥0.5) +2  CADD:27.9 (≥20) +2
+     MetaRNN:0.945 (≥0.5) +1  PrimateAI:0.642 (<0.7) +0  ClinPred:0.996 (≥0.5) +1
+     ESM1b:-11.305 (<-3) +1  PhyloP:2.53 (≥2) +1
+
+12   chr1:201361940    TNNT2           A>G          missense_variant               8     
+     AM:0.276 (<0.564) +0  REVEL:0.906 (≥0.5) +2  CADD:25.5 (≥20) +2
+     MetaRNN:0.865 (≥0.5) +1  PrimateAI:0.712 (≥0.7) +1  ClinPred:0.864 (≥0.5) +1
+     ESM1b:-11.042 (<-3) +1  PhyloP:1.97 (<2) +0
+
+13   chr3:53811209     CACNA1D         G>A          missense_variant               8     
+     AM:0.853 (≥0.564) +2  REVEL:0.337 (<0.5) +0  CADD:28.8 (≥20) +2
+     MetaRNN:0.420 (<0.5) +0  PrimateAI:0.815 (≥0.7) +1  ClinPred:0.970 (≥0.5) +1
+     ESM1b:-6.950 (<-3) +1  PhyloP:2.07 (≥2) +1
+
+14   chr3:127012030    PLXNA1          G>A          missense_variant               8     
+     AM:0.795 (≥0.564) +2  REVEL:0.348 (<0.5) +0  CADD:26.8 (≥20) +2
+     MetaRNN:0.803 (≥0.5) +1  PrimateAI:0.676 (<0.7) +0  ClinPred:0.940 (≥0.5) +1
+     ESM1b:-7.166 (<-3) +1  PhyloP:2.14 (≥2) +1
+
+15   chr3:155828335    SLC33A1         C>T          missense_variant               8     
+     AM:0.955 (≥0.564) +2  REVEL:0.862 (≥0.5) +2  CADD:27.9 (≥20) +2
+     MetaRNN:0.172 (<0.5) +0  PrimateAI:0.695 (<0.7) +0  ClinPred:0.738 (≥0.5) +1
+     ESM1b:-11.322 (<-3) +1  PhyloP:1.85 (<2) +0
+
+16   chr4:679989       SLC49A3         T>C          missense_variant               8     
+     AM:0.997 (≥0.564) +2  REVEL:0.713 (≥0.5) +2  CADD:24.9 (≥20) +2
+     MetaRNN:0.012 (<0.5) +0  PrimateAI:0.596 (<0.7) +0  ClinPred:0.095 (<0.5) +0
+     ESM1b:-15.144 (<-3) +1  PhyloP:2.23 (≥2) +1
+
+17   chr4:107631692    PAPSS1          G>A          missense_variant               8     
+     AM:0.618 (≥0.564) +2  REVEL:0.462 (<0.5) +0  CADD:27.1 (≥20) +2
+     MetaRNN:0.804 (≥0.5) +1  PrimateAI:0.789 (≥0.7) +1  ClinPred:0.995 (≥0.5) +1
+     ESM1b:-8.276 (<-3) +1  PhyloP:1.79 (<2) +0
+
+18   chr5:90855813     ADGRV1          C>G          missense_variant               8     
+     AM:0.337 (<0.564) +0  REVEL:0.731 (≥0.5) +2  CADD:23.2 (≥20) +2
+     MetaRNN:0.801 (≥0.5) +1  PrimateAI:0.453 (<0.7) +0  ClinPred:0.892 (≥0.5) +1
+     ESM1b:-7.245 (<-3) +1  PhyloP:2.58 (≥2) +1
+
+19   chr5:103003035    PAM             C>G          missense_variant               8     
+     AM:0.989 (≥0.564) +2  REVEL:0.635 (≥0.5) +2  CADD:33.0 (≥20) +2
+     MetaRNN:0.017 (<0.5) +0  PrimateAI:0.592 (<0.7) +0  ClinPred:0.070 (<0.5) +0
+     ESM1b:-17.433 (<-3) +1  PhyloP:2.52 (≥2) +1
+
+20   chr7:151235481    CHPF2           C>T          missense_variant               8     
+     AM:0.682 (≥0.564) +2  REVEL:0.451 (<0.5) +0  CADD:33.0 (≥20) +2
+     MetaRNN:0.792 (≥0.5) +1  PrimateAI:0.824 (≥0.7) +1  ClinPred:0.777 (≥0.5) +1
+     ESM1b:-12.277 (<-3) +1  PhyloP:1.69 (<2) +0
+
+21   chr8:67422547     CPA6            G>A          missense_variant               8     
+     AM:0.788 (≥0.564) +2  REVEL:0.711 (≥0.5) +2  CADD:29.7 (≥20) +2
+     MetaRNN:0.668 (≥0.5) +1  PrimateAI:0.664 (<0.7) +0  ClinPred:0.293 (<0.5) +0
+     ESM1b:-10.356 (<-3) +1  PhyloP:1.99 (<2) +0
+
+22   chr10:103139440    NT5C2           C>G          missense_variant               7     
+     AM:0.714 (≥0.564) +2  REVEL:0.182 (<0.5) +0  CADD:24.1 (≥20) +2
+     MetaRNN:0.502 (≥0.5) +1  PrimateAI:0.922 (≥0.7) +1  ClinPred:0.469 (<0.5) +0
+     ESM1b:-13.000 (<-3) +1  PhyloP:-0.15 (<2) +0
+
+23   chr14:102042083    DYNC1H1         T>C          missense_variant               7     
+     AM:0.997 (≥0.564) +2  REVEL:0.827 (≥0.5) +2  CADD:26.2 (≥20) +2
+     MetaRNN:N/A  PrimateAI:N/A  ClinPred:N/A
+     ESM1b:N/A  PhyloP:2.35 (≥2) +1
+
+24   chr19:9758010      ZNF846          T>A          missense_variant               7     
+     AM:0.871 (≥0.564) +2  REVEL:0.547 (≥0.5) +2  CADD:20.4 (≥20) +2
+     MetaRNN:0.011 (<0.5) +0  PrimateAI:0.590 (<0.7) +0  ClinPred:0.127 (<0.5) +0
+     ESM1b:-11.551 (<-3) +1  PhyloP:1.03 (<2) +0
+
+25   chr19:17511703     PGLS            G>A          missense_variant               7     
+     AM:0.810 (≥0.564) +2  REVEL:0.271 (<0.5) +0  CADD:28.1 (≥20) +2
+     MetaRNN:0.033 (<0.5) +0  PrimateAI:0.953 (≥0.7) +1  ClinPred:0.162 (<0.5) +0
+     ESM1b:-8.933 (<-3) +1  PhyloP:2.09 (≥2) +1
+
+26   chr2:46905488     MCFD2           G>A          missense_variant               7     
+     AM:0.548 (<0.564) +0  REVEL:0.594 (≥0.5) +2  CADD:26.5 (≥20) +2
+     MetaRNN:0.517 (≥0.5) +1  PrimateAI:0.841 (≥0.7) +1  ClinPred:0.432 (<0.5) +0
+     ESM1b:-10.384 (<-3) +1  PhyloP:1.88 (<2) +0
+
+27   chr3:128153626    EEFSEC          C>A          missense_variant               7     
+     AM:0.720 (≥0.564) +2  REVEL:0.458 (<0.5) +0  CADD:32.0 (≥20) +2
+     MetaRNN:0.044 (<0.5) +0  PrimateAI:0.840 (≥0.7) +1  ClinPred:0.093 (<0.5) +0
+     ESM1b:-10.142 (<-3) +1  PhyloP:2.18 (≥2) +1
+
+28   chr5:44811105     MRPS30          T>G          missense_variant               7     
+     AM:0.926 (≥0.564) +2  REVEL:0.538 (≥0.5) +2  CADD:26.2 (≥20) +2
+     MetaRNN:0.019 (<0.5) +0  PrimateAI:0.599 (<0.7) +0  ClinPred:0.035 (<0.5) +0
+     ESM1b:-3.582 (<-3) +1  PhyloP:1.67 (<2) +0
+
+29   chr7:129460332    STRIP2          T>G          missense_variant               7     
+     AM:0.512 (<0.564) +0  REVEL:0.587 (≥0.5) +2  CADD:24.8 (≥20) +2
+     MetaRNN:0.079 (<0.5) +0  PrimateAI:0.769 (≥0.7) +1  ClinPred:0.068 (<0.5) +0
+     ESM1b:-8.194 (<-3) +1  PhyloP:5.70 (≥2) +1
+
+30   chr8:140879490    PTK2            G>A          missense_variant               7     
+     AM:0.134 (<0.564) +0  REVEL:0.492 (<0.5) +0  CADD:25.1 (≥20) +2
+     MetaRNN:0.595 (≥0.5) +1  PrimateAI:0.719 (≥0.7) +1  ClinPred:0.898 (≥0.5) +1
+     ESM1b:-9.315 (<-3) +1  PhyloP:2.43 (≥2) +1
+
+31   chr1:16206949     ARHGEF19        T>C          missense_variant               6     
+     AM:0.995 (≥0.564) +2  REVEL:0.408 (<0.5) +0  CADD:36.0 (≥20) +2
+     MetaRNN:0.116 (<0.5) +0  PrimateAI:0.713 (≥0.7) +1  ClinPred:0.205 (<0.5) +0
+     ESM1b:-12.259 (<-3) +1  PhyloP:N/A
+
+32   chr1:22600748     EPHA8           G>A          missense_variant               6     
+     AM:0.457 (<0.564) +0  REVEL:0.728 (≥0.5) +2  CADD:31.0 (≥20) +2
+     MetaRNN:0.423 (<0.5) +0  PrimateAI:0.725 (≥0.7) +1  ClinPred:0.052 (<0.5) +0
+     ESM1b:-8.031 (<-3) +1  PhyloP:-0.36 (<2) +0
+
+33   chr1:64691437     CACHD1          C>G          missense_variant               6     
+     AM:0.675 (≥0.564) +2  REVEL:0.258 (<0.5) +0  CADD:24.5 (≥20) +2
+     MetaRNN:0.015 (<0.5) +0  PrimateAI:0.701 (≥0.7) +1  ClinPred:0.033 (<0.5) +0
+     ESM1b:-4.949 (<-3) +1  PhyloP:1.91 (<2) +0
+
+34   chr14:74781799     YLPM1           G>A          missense_variant               6     
+     AM:0.667 (≥0.564) +2  REVEL:0.134 (<0.5) +0  CADD:23.7 (≥20) +2
+     MetaRNN:0.146 (<0.5) +0  PrimateAI:0.817 (≥0.7) +1  ClinPred:0.099 (<0.5) +0
+     ESM1b:-9.337 (<-3) +1  PhyloP:1.87 (<2) +0
+
+35   chr14:96086522     C14orf132       G>C          missense_variant               6     
+     AM:0.816 (≥0.564) +2  REVEL:N/A  CADD:22.2 (≥20) +2
+     MetaRNN:0.038 (<0.5) +0  PrimateAI:N/A  ClinPred:N/A
+     ESM1b:-3.893 (<-3) +1  PhyloP:2.05 (≥2) +1
+
+36   chr15:71256656     THSD4           C>T          missense_variant               6     
+     AM:0.240 (<0.564) +0  REVEL:0.392 (<0.5) +0  CADD:25.2 (≥20) +2
+     MetaRNN:0.746 (≥0.5) +1  PrimateAI:0.640 (<0.7) +0  ClinPred:0.933 (≥0.5) +1
+     ESM1b:-8.975 (<-3) +1  PhyloP:2.77 (≥2) +1
+
+37   chr16:683424       STUB1           C>G          missense_variant               6     
+     AM:0.991 (≥0.564) +2  REVEL:N/A  CADD:32.0 (≥20) +2
+     MetaRNN:0.034 (<0.5) +0  PrimateAI:0.850 (≥0.7) +1  ClinPred:0.045 (<0.5) +0
+     ESM1b:-12.915 (<-3) +1  PhyloP:0.50 (<2) +0
+
+38   chr2:27638944     GPN1            A>C          missense_variant               6     
+     AM:0.898 (≥0.564) +2  REVEL:0.146 (<0.5) +0  CADD:20.5 (≥20) +2
+     MetaRNN:0.012 (<0.5) +0  PrimateAI:0.826 (≥0.7) +1  ClinPred:0.093 (<0.5) +0
+     ESM1b:-9.315 (<-3) +1  PhyloP:-2.04 (<2) +0
+
+39   chr22:36292132     MYH9            G>A          missense_variant               6     
+     AM:0.132 (<0.564) +0  REVEL:0.670 (≥0.5) +2  CADD:27.9 (≥20) +2
+     MetaRNN:0.335 (<0.5) +0  PrimateAI:0.450 (<0.7) +0  ClinPred:0.082 (<0.5) +0
+     ESM1b:-13.441 (<-3) +1  PhyloP:2.05 (≥2) +1
+
+40   chr3:127022265    PLXNA1          G>A          missense_variant               6     
+     AM:0.558 (<0.564) +0  REVEL:0.301 (<0.5) +0  CADD:25.4 (≥20) +2
+     MetaRNN:0.749 (≥0.5) +1  PrimateAI:0.855 (≥0.7) +1  ClinPred:0.546 (≥0.5) +1
+     ESM1b:-8.494 (<-3) +1  PhyloP:-2.22 (<2) +0
+
+41   chr5:75379425     CERT1           T>C          missense_variant               6     
+     AM:0.257 (<0.564) +0  REVEL:0.485 (<0.5) +0  CADD:27.2 (≥20) +2
+     MetaRNN:0.486 (<0.5) +0  PrimateAI:0.828 (≥0.7) +1  ClinPred:0.943 (≥0.5) +1
+     ESM1b:-8.989 (<-3) +1  PhyloP:2.27 (≥2) +1
+
+42   chr5:178153531    NHP2            C>T          missense_variant               6     
+     AM:0.948 (≥0.564) +2  REVEL:0.376 (<0.5) +0  CADD:26.9 (≥20) +2
+     MetaRNN:0.259 (<0.5) +0  PrimateAI:0.734 (≥0.7) +1  ClinPred:0.144 (<0.5) +0
+     ESM1b:-10.542 (<-3) +1  PhyloP:N/A
+
+43   chr7:127582264    GCC1            T>C          missense_variant               6     
+     AM:0.132 (<0.564) +0  REVEL:0.218 (<0.5) +0  CADD:24.3 (≥20) +2
+     MetaRNN:0.508 (≥0.5) +1  PrimateAI:0.447 (<0.7) +0  ClinPred:0.747 (≥0.5) +1
+     ESM1b:-4.253 (<-3) +1  PhyloP:2.81 (≥2) +1
+
+44   chr7:149874130    ATP6V0E2        T>C          missense_variant               6     
+     AM:0.682 (≥0.564) +2  REVEL:0.230 (<0.5) +0  CADD:22.9 (≥20) +2
+     MetaRNN:0.176 (<0.5) +0  PrimateAI:0.884 (≥0.7) +1  ClinPred:0.436 (<0.5) +0
+     ESM1b:-6.612 (<-3) +1  PhyloP:1.84 (<2) +0
+
+45   chr1:948519       NOC2L           T>G          missense_variant               5     
+     AM:0.076 (<0.564) +0  REVEL:0.275 (<0.5) +0  CADD:22.9 (≥20) +2
+     MetaRNN:0.441 (<0.5) +0  PrimateAI:0.275 (<0.7) +0  ClinPred:0.695 (≥0.5) +1
+     ESM1b:-3.498 (<-3) +1  PhyloP:4.50 (≥2) +1
+
+46   chr1:117994519    SPAG17          T>C          missense_variant               5     
+     AM:0.119 (<0.564) +0  REVEL:0.185 (<0.5) +0  CADD:23.9 (≥20) +2
+     MetaRNN:0.234 (<0.5) +0  PrimateAI:0.512 (<0.7) +0  ClinPred:0.824 (≥0.5) +1
+     ESM1b:-5.140 (<-3) +1  PhyloP:2.30 (≥2) +1
+
+47   chr1:151132600    SEMA6C          G>A          missense_variant               5     
+     AM:0.231 (<0.564) +0  REVEL:0.241 (<0.5) +0  CADD:25.8 (≥20) +2
+     MetaRNN:0.303 (<0.5) +0  PrimateAI:0.842 (≥0.7) +1  ClinPred:0.638 (≥0.5) +1
+     ESM1b:-6.468 (<-3) +1  PhyloP:0.42 (<2) +0
+
+48   chr10:26088402     MYO3A           C>T          missense_variant               5     
+     AM:0.376 (<0.564) +0  REVEL:0.767 (≥0.5) +2  CADD:27.0 (≥20) +2
+     MetaRNN:0.043 (<0.5) +0  PrimateAI:0.631 (<0.7) +0  ClinPred:0.025 (<0.5) +0
+     ESM1b:-6.580 (<-3) +1  PhyloP:1.10 (<2) +0
+
+49   chr11:299471       IFITM5          C>T          missense_variant               5     
+     AM:0.167 (<0.564) +0  REVEL:0.356 (<0.5) +0  CADD:23.9 (≥20) +2
+     MetaRNN:0.275 (<0.5) +0  PrimateAI:0.773 (≥0.7) +1  ClinPred:0.733 (≥0.5) +1
+     ESM1b:-4.160 (<-3) +1  PhyloP:1.14 (<2) +0
+
+50   chr14:21087322     ARHGEF40        G>A          missense_variant               5     
+     AM:0.397 (<0.564) +0  REVEL:0.132 (<0.5) +0  CADD:28.7 (≥20) +2
+     MetaRNN:0.010 (<0.5) +0  PrimateAI:0.709 (≥0.7) +1  ClinPred:0.020 (<0.5) +0
+     ESM1b:-5.781 (<-3) +1  PhyloP:2.50 (≥2) +1
+
+51   chr14:31129221     HECTD1          T>C          missense_variant               5     
+     AM:0.313 (<0.564) +0  REVEL:0.194 (<0.5) +0  CADD:32.0 (≥20) +2
+     MetaRNN:0.219 (<0.5) +0  PrimateAI:0.672 (<0.7) +0  ClinPred:0.556 (≥0.5) +1
+     ESM1b:-8.169 (<-3) +1  PhyloP:5.34 (≥2) +1
+
+52   chr19:13144774     STX10           C>T          missense_variant               5     
+     AM:0.236 (<0.564) +0  REVEL:0.278 (<0.5) +0  CADD:25.8 (≥20) +2
+     MetaRNN:0.538 (≥0.5) +1  PrimateAI:0.547 (<0.7) +0  ClinPred:0.967 (≥0.5) +1
+     ESM1b:-11.474 (<-3) +1  PhyloP:1.76 (<2) +0
+
+53   chr21:29591128     GRIK1           A>G          missense_variant               5     
+     AM:0.116 (<0.564) +0  REVEL:0.218 (<0.5) +0  CADD:24.7 (≥20) +2
+     MetaRNN:0.069 (<0.5) +0  PrimateAI:0.766 (≥0.7) +1  ClinPred:0.202 (<0.5) +0
+     ESM1b:-8.800 (<-3) +1  PhyloP:2.84 (≥2) +1
+
+54   chr22:39512414     MIEF1           C>T          missense_variant               5     
+     AM:0.651 (≥0.564) +2  REVEL:0.163 (<0.5) +0  CADD:34.0 (≥20) +2
+     MetaRNN:0.008 (<0.5) +0  PrimateAI:0.695 (<0.7) +0  ClinPred:0.041 (<0.5) +0
+     ESM1b:-10.423 (<-3) +1  PhyloP:1.84 (<2) +0
+
+55   chr22:50244017     HDAC10          T>C          missense_variant               5     
+     AM:0.306 (<0.564) +0  REVEL:0.430 (<0.5) +0  CADD:24.8 (≥20) +2
+     MetaRNN:0.818 (≥0.5) +1  PrimateAI:0.560 (<0.7) +0  ClinPred:0.970 (≥0.5) +1
+     ESM1b:-3.817 (<-3) +1  PhyloP:1.03 (<2) +0
+
+56   chr4:2305144      ZFYVE28         C>T          missense_variant               5     
+     AM:0.275 (<0.564) +0  REVEL:0.410 (<0.5) +0  CADD:23.4 (≥20) +2
+     MetaRNN:0.568 (≥0.5) +1  PrimateAI:0.867 (≥0.7) +1  ClinPred:0.431 (<0.5) +0
+     ESM1b:-9.720 (<-3) +1  PhyloP:1.11 (<2) +0
+
+57   chr4:169477323    NEK1            A>C          missense_variant               5     
+     AM:0.883 (≥0.564) +2  REVEL:0.372 (<0.5) +0  CADD:22.6 (≥20) +2
+     MetaRNN:0.009 (<0.5) +0  PrimateAI:0.522 (<0.7) +0  ClinPred:0.036 (<0.5) +0
+     ESM1b:-4.988 (<-3) +1  PhyloP:0.67 (<2) +0
+
+58   chr5:132589791    RAD50           G>C          missense_variant               5     
+     AM:0.259 (<0.564) +0  REVEL:0.264 (<0.5) +0  CADD:22.3 (≥20) +2
+     MetaRNN:0.163 (<0.5) +0  PrimateAI:0.602 (<0.7) +0  ClinPred:0.501 (≥0.5) +1
+     ESM1b:-8.283 (<-3) +1  PhyloP:3.81 (≥2) +1
+
+59   chr5:151296240    SLC36A3         C>T          missense_variant               5     
+     AM:0.973 (≥0.564) +2  REVEL:0.449 (<0.5) +0  CADD:25.4 (≥20) +2
+     MetaRNN:0.036 (<0.5) +0  PrimateAI:0.579 (<0.7) +0  ClinPred:0.060 (<0.5) +0
+     ESM1b:-11.283 (<-3) +1  PhyloP:1.68 (<2) +0
+
+60   chr6:132570617    TAAR6           A>G          missense_variant               5     
+     AM:0.675 (≥0.564) +2  REVEL:0.259 (<0.5) +0  CADD:23.6 (≥20) +2
+     MetaRNN:0.013 (<0.5) +0  PrimateAI:0.430 (<0.7) +0  ClinPred:0.072 (<0.5) +0
+     ESM1b:-10.263 (<-3) +1  PhyloP:1.85 (<2) +0
+
+61   chr8:138594184    COL22A1         A>T          missense_variant               5     
+     AM:0.453 (<0.564) +0  REVEL:0.567 (≥0.5) +2  CADD:24.1 (≥20) +2
+     MetaRNN:N/A  PrimateAI:N/A  ClinPred:N/A
+     ESM1b:N/A  PhyloP:2.29 (≥2) +1
+
+62   chr9:122228685    LHX6            G>C          missense_variant               5     
+     AM:0.109 (<0.564) +0  REVEL:0.378 (<0.5) +0  CADD:22.9 (≥20) +2
+     MetaRNN:0.333 (<0.5) +0  PrimateAI:0.866 (≥0.7) +1  ClinPred:0.715 (≥0.5) +1
+     ESM1b:-3.768 (<-3) +1  PhyloP:1.16 (<2) +0
+
+63   chr9:129059206    MIGA2           G>A          missense_variant               5     
+     AM:0.130 (<0.564) +0  REVEL:0.288 (<0.5) +0  CADD:30.0 (≥20) +2
+     MetaRNN:0.607 (≥0.5) +1  PrimateAI:0.729 (≥0.7) +1  ClinPred:0.302 (<0.5) +0
+     ESM1b:-9.396 (<-3) +1  PhyloP:0.61 (<2) +0
+
+----------------------------------------------------------------------------------------------------
+
+分数分布统计:
+  分数 11:    2 个 ██
+  分数 10:    4 个 ████
+  分数  9:    3 个 ███
+  分数  8:   12 个 ████████████
+  分数  7:    9 个 █████████
+  分数  6:   14 个 ██████████████
+  分数  5:   19 个 ███████████████████
+  分数  4:   32 个 ████████████████████████████████
+  分数  3:   49 个 █████████████████████████████████████████████████
+  分数  2:   21 个 █████████████████████
+  分数  1:   96 个 ██████████████████████████████████████████████████
+  分数  0:  356 个 ██████████████████████████████████████████████████
