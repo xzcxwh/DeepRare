@@ -1,0 +1,5 @@
+[[annotation]]
+file="input_data/dbNSFP5.3a_grch38_lite.tsv.gz"
+columns = [9, 10, 11, 13, 19, 20, 22, 24, 25, 26, 27]
+names = ["genename", "clinvar_id", "clinvar_clnsig", "clinvar_review", "MetaRNN_score", "REVEL_score", "ClinPred_score", "AlphaMissense_score", "CADD_phred", "gnomAD4.1_joint_flag", "gnomAD4.1_joint_POPMAX_AF"]
+ops = ["self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self"]

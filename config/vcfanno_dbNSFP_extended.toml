@@ -1,0 +1,5 @@
+[[annotation]]
+file="/Volumes/T9/herita-project/input_data/dbNSFP5.3a_grch38_lite.tsv.gz"
+columns = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27]
+names = ["dbNSFP_chr", "dbNSFP_pos", "dbNSFP_ref", "dbNSFP_alt", "aaref", "aaalt", "rs_dbSNP", "aapos", "genename", "clinvar_id", "clinvar_clnsig", "clinvar_trait", "clinvar_review", "clinvar_hgvs", "clinvar_var_source", "clinvar_MedGen_id", "clinvar_OMIM_id", "clinvar_Orphanet_id", "MetaRNN_score", "REVEL_score", "PrimateAI_score", "ClinPred_score", "ESM1b_score", "AlphaMissense_score", "CADD_phred", "gnomAD4.1_joint", "gnomAD4.1_joint_POPMAX_AF"]
+ops = ["self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self", "self"]

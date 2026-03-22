@@ -1,0 +1,5 @@
+[[annotation]]
+file="../input_data/dbNSFP5.3a_grch38_lite.tsv.gz"
+columns = [1, 2, 11, 13]
+names = ["chr", "pos", "clinvar_clnsig", "clinvar_review"]
+ops = ["self", "self", "self", "self"]

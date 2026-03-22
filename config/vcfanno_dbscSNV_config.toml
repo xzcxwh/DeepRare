@@ -1,0 +1,5 @@
+[[annotation]]
+file="dbscSNV1.1_hg38_sorted.tsv"
+columns = [1, 2, 3, 4, 5, 6]
+names = ["dbscSNV_chr", "dbscSNV_pos", "dbscSNV_ref", "dbscSNV_alt", "dbscSNV_ada_score", "dbscSNV_rf_score"]
+ops = ["self", "self", "self", "self", "self", "self"]

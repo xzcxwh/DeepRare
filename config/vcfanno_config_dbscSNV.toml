@@ -1,0 +1,5 @@
+[[annotation]]
+file="../dbscSNV1.1_scores.tsv.gz"
+columns = [1, 2, 3, 4]
+names = ["chr", "pos", "dbscSNV_ada_score", "dbscSNV_rf_score"]
+ops = ["self", "self", "self", "self"]

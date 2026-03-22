@@ -1,0 +1,6 @@
+[[annotation]]
+# 为没有dbscSNV数据的变异添加占位符注释
+file="/Volumes/T9/herita-project/input_data/dbNSFP5.3a_grch38_lite.tsv.gz"
+columns = [1, 2, 3, 4]
+names = ["placeholder_chr", "placeholder_pos", "placeholder_ref", "placeholder_alt"]
+ops = ["self", "self", "self", "self"]

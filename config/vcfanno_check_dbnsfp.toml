@@ -1,0 +1,17 @@
+[[annotation]]
+file="input_data/dbNSFP5.3a_grch38_lite.tsv.gz"
+columns = [9]
+names = ["dbNSFP_GENE"]
+ops = ["self"]
+
+[[annotation]]
+file="input_data/dbNSFP5.3a_grch38_lite.tsv.gz"
+columns = [9]
+names = ["dbNSFP_GENE_match"]
+ops = ["self"]
+
+[[annotation]]
+file="input_data/dbNSFP5.3a_grch38_lite.tsv.gz"
+columns = [9]
+names = ["dbNSFP_GENE_match"]
+ops = ["self"]
