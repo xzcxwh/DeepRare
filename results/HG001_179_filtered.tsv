@@ -1,0 +1,12 @@
+CHROM	POS	REF	ALT	ClinVar_Significance	ClinVar_Trait	AlphaMissense	SpliceAI_Max_Delta	CADD_phred	REVEL	phyloP100way	Score_Count
+chr1	69994621	A	G	.	.	.	0.0000	21.2	0.125	8.358	2
+chr2	214730440	G	A	uncertain_significance,benign,likely_benign	RCV001864376	0.1001	0.0100	25.2	0.104	5.269	2
+chr5	179980158	T	C	.	.	0.113	0.0000	23.3	0.142	4.633	2
+chr7	152113391	A	G	.	.	0.1175	0.0000	23	0.371	5.29	2
+chr8	138594184	A	T	likely_benign	RCV003440675	0.4529	0.0100	24.1	0.567	7.074	3
+chr9	1056398	C	G	benign	RCV003983304	0.2915	0.0000	24.6	0.338	7.713	2
+chr12	8932856	C	A	benign	RCV003222753	0.1658	0.0000	21.4	0.02	4.467	2
+chr15	71660560	G	A	benign	RCV003485789	0.0794	0.0000	26.6	0.237	9.678	2
+chr15	82138804	C	T	benign,likely_benign	RCV000888347	0.0803	.	23.2	0.17	7.614	2
+chr15	82151813	G	T	uncertain_significance,benign,likely_benign	RCV001974137	0.6575	.	25	0.908	9.495	4
+chr22	24728176	C	T	.	.	.	0.8600	22.6	.	.	2
