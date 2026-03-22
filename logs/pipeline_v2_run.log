@@ -1,0 +1,527 @@
+[19:23:15] ============================================================
+[19:23:15] HERITA 双分支流水线 v2
+[19:23:15] 输入: /Volumes/T9/herita-project/input_data/HG001.vcf
+[19:23:15] 前缀: HG001
+[19:23:15] ============================================================
+[19:23:15] Step0: CDS 交集预处理
+[19:23:15]   输入: /Volumes/T9/herita-project/input_data/HG001.vcf
+[19:23:15]   CDS BED: /Volumes/T9/herita-project/annotation_data/hg38_cds.bed.gz
+[19:23:15] [CMD] bedtools intersect
+[19:23:15]       bedtools intersect -header -a /Volumes/T9/herita-project/input_data/HG001.vcf -b...
+[19:23:22]   输出: /Volumes/T9/herita-project/results/HG001_cds.vcf (21693 个变异)
+[19:23:22] Step1: vcfanno 注释 (gnomAD + dbNSFP)
+[19:23:22] [CMD] vcfanno annotation
+[19:23:22]       vcfanno -lua /Volumes/T9/herita-project/config/vcfanno_functions.lua /Volumes/T9/herita-project/config/vcfanno_step1_full.toml /Volumes/T9/herita-project/results/HG001_cds.vcf
+[19:23:44]   输出: /Volumes/T9/herita-project/results/HG001_cds_annotated.vcf (21693 个变异)
+[19:23:44] Step2: 频率过滤 (MAF < 0.01)
+[19:23:44]   保留: 21611, 过滤: 82
+[19:23:44]   输出: /Volumes/T9/herita-project/results/HG001_cds_filtered.vcf
+[19:23:44] Step3: dbNSFP 命中判定并拆分
+[19:23:44]   Branch A (SNV+dbNSFP命中): 273 个变异
+[19:23:44]   Branch B (indel+未命中): 21338 个变异
+[19:23:44] Branch A: 运行旧流程 (273 个变异)
+[19:23:49] [CMD] run_pipeline.py (Branch A)
+[19:23:49]       /Users/chaohe/miniconda3/bin/python /Volumes/T9/herita-project/scripts/run_pipeline.py --clean
+🧬 VCF文件gnomAD频率注释与筛选 - 第一步
+============================================================
+✅ 所有必要工具已安装
+   vcfanno: vcfanno version 0.3.7 [built with go1.24.6]
+   bcftools: bcftools
+✅ 所有输入文件存在
+📁 输入VCF: input_data/HG001.vcf
+📄 dbNSFP数据库: input_data/dbNSFP5.3a_grch38_lite.tsv.gz
+✅ 创建vcfanno配置文件: config/vcfanno_gnomad_step1.toml
+
+🧬 开始vcfanno注释...
+输入文件: input_data/HG001.vcf
+配置文件: config/vcfanno_gnomad_step1.toml
+输出文件: temp/vcf1_annotated.vcf
+============================================================
+✅ vcfanno注释成功完成
+处理时间: 0.24秒
+
+🔍 开始gnomAD频率筛选...
+输入文件: temp/vcf1_annotated.vcf
+输出文件: results/vcf1.vcf
+筛选条件: gnomAD4.1_joint_POPMAX_AF < 0.01 且不为空
+============================================================
+
+🎉 gnomAD频率筛选完成！
+总处理时间: 0.00秒
+处理速度: 95348.9 变异/秒
+
+📊 筛选统计:
+  原始变异数量: 273
+  通过筛选变异: 272
+  筛选保留比例: 99.63%
+  筛选失败变异: 1
+  缺少gnomAD信息的变异: 0
+
+🔍 验证结果文件...
+✅ 结果文件验证通过
+📊 最终变异数量: 272
+
+============================================================
+🎉 第一步处理完成！
+总处理时间: 0.25秒
+  - vcfanno注释: 0.24秒
+  - gnomAD筛选: 0.00秒
+最终结果: 272 个变异
+输出文件: results/vcf1.vcf
+
+✅ 详细报告已保存到: results/STEP1_GNOMAD_ANNOTATION_REPORT.md
+🚀 准备进行第二步处理...
+🧬 VCF文件gnomAD质量注释 - 第二步
+============================================================
+检查vcf1文件状态...
+✅ vcf1文件存在
+📊 vcf1变异数量: 272
+
+检查依赖工具...
+✅ vcfanno工具已安装
+
+检查数据文件...
+✅ dbNSFP文件存在: input_data/dbNSFP5.3a_grch38_lite.tsv.gz
+📄 dbNSFP文件大小: 1,203,361,502 bytes
+
+创建注释配置...
+✅ 创建vcfanno配置文件: /Volumes/T9/herita-project/config/vcfanno_gnomad_flag.toml
+
+🧬 开始gnomAD flag注释...
+输入文件: results/vcf1.vcf
+配置文件: /Volumes/T9/herita-project/config/vcfanno_gnomad_flag.toml
+输出文件: results/vcf2.vcf
+注释字段: gnomAD4.1_joint_flag (dbNSFP第26列)
+============================================================
+✅ vcfanno注释成功完成
+处理时间: 0.24秒
+
+🔍 验证vcf2文件...
+📊 vcf2变异数量: 272
+✅ 变异数量匹配vcf1
+📊 gnomAD flag为'.'的变异: 0
+
+📋 vcf2示例变异 (前5个):
+============================================================
+1. chr1:948519:T>G
+   gnomAD频率: 3.220640e-05
+   gnomAD标志: N/A
+
+2. chr1:1487901:G>A
+   gnomAD频率: 6.600660e-04
+   gnomAD标志: N/A
+
+3. chr1:2408634:C>G
+   gnomAD频率: 1.635950e-03
+   gnomAD标志: N/A
+
+4. chr1:6082358:C>T
+   gnomAD频率: 2.480940e-05
+   gnomAD标志: N/A
+
+5. chr1:9735980:C>T
+   gnomAD频率: 4.391840e-05
+   gnomAD标志: N/A
+
+
+============================================================
+🎉 第二步处理完成！
+总处理时间: 0.29秒
+  - vcfanno注释: 0.24秒
+输入变异数量: 272
+输出文件: results/vcf2.vcf
+最终变异数量: 272
+
+✅ 详细报告已保存到: results/STEP2_GNOMAD_FLAG_ANNOTATION_REPORT.md
+🚀 准备进行第三步测序质量筛选...
+🧬 VCF文件测序质量筛选 - 第三步
+============================================================
+检查vcf2文件状态...
+✅ vcf2文件存在
+📊 vcf2变异数量: 272
+
+📊 分析vcf2质量指标分布...
+==================================================
+变异总数: 272
+有QUAL信息的变异: 272
+有FILTER信息的变异: 272
+FILTER=PASS的变异: 0
+有DP信息的变异: 272
+有GQ信息的变异: 272
+
+
+🧬 开始测序质量筛选...
+输入文件: results/vcf2.vcf
+输出文件: results/vcf3.vcf
+筛选条件:
+  - QUAL >= 30
+  - FILTER = PASS
+  - DP >= 30
+  - GQ >= 60
+==================================================
+已处理 50 个变异，通过 49 个
+已处理 100 个变异，通过 99 个
+已处理 150 个变异，通过 143 个
+已处理 200 个变异，通过 192 个
+已处理 250 个变异，通过 242 个
+
+🎉 测序质量筛选完成！
+总处理时间: 0.00秒
+处理速度: 86572.4 变异/秒
+
+📊 筛选统计:
+  原始变异数量: 272
+  通过筛选变异: 265
+  筛选保留比例: 97.43%
+  筛选失败变异: 7
+
+📊 筛选失败原因:
+  QUAL < 30: 0
+  FILTER ≠ PASS: 6
+  DP < 30: 0
+  GQ < 60: 1
+  信息缺失: 0
+
+🔍 验证vcf3文件...
+✅ 结果文件验证通过
+📊 vcf3变异数量: 265
+✅ 变异数量符合预期 (≥ 0)
+
+📋 vcf3示例变异 (前5个通过筛选的变异):
+============================================================
+1. chr1:948519:T>G
+   QUAL: 50.0
+   FILTER: PASS
+   DP: 669
+   GQ: 839
+
+2. chr1:1487901:G>A
+   QUAL: 50.0
+   FILTER: PASS
+   DP: 827
+   GQ: 735
+
+3. chr1:2408634:C>G
+   QUAL: 50.0
+   FILTER: PASS
+   DP: 857
+   GQ: 700
+
+4. chr1:6082358:C>T
+   QUAL: 50.0
+   FILTER: PASS
+   DP: 768
+   GQ: 872
+
+5. chr1:9735980:C>T
+   QUAL: 50.0
+   FILTER: PASS
+   DP: 1164
+   GQ: 1412
+
+
+============================================================
+🎉 第三步处理完成！
+总处理时间: 0.05秒
+  - 质量指标分析: 完成
+  - 质量筛选: 0.00秒
+输入变异数量: 272
+输出变异数量: 265
+筛选保留比例: 97.43%
+输出文件: results/vcf3.vcf
+
+✅ 详细报告已保存到: results/STEP3_SEQUENCING_QUALITY_FILTER_REPORT.md
+🚀 准备进行第四步ClinVar注释...
+🧬 ClinVar注释 - 优化版 (使用tabix按需查询)
+============================================================
+📊 vcf3变异数量: 265
+
+变异 chr1:171636247 T>C 被删除: Likely_benign, reviewed_by_expert_panel
+变异 chr6:160706469 A>G 进入决赛圈: Pathogenic/Likely_pathogenic, criteria_provided,_multiple_submitters,_no_conflicts
+变异 chr12:102840474 T>C 进入决赛圈: Pathogenic, reviewed_by_expert_panel
+
+处理完成！
+总处理变异行数: 265
+进入决赛圈 (final_clinvar.vcf): 2
+保留在vcf4中: 262
+从vcf4中删除: 1
+验证: 2 + 262 + 1 = 265
+
+⏱️ 总耗时: 4.75 秒
+🧬 dbscSNV注释 - 优化版 (按需查询)
+============================================================
+📊 vcf4变异数量: 262
+从dbscSNV查询 262 个位点...
+dbscSNV匹配到 0 个位点
+
+开始处理VCF文件...
+
+处理完成！
+总变异行数: 262
+dbscSNV匹配成功: 0 (0.0%)
+高分变异(ada>0.6&rf>0.6): 0
+进入dbscSNV决赛圈 (final_dbscSNV.vcf): 0
+保留在vcf5中: 262
+验证: 262 = 262
+
+⏱️ 总耗时: 3.56 秒
+
+======================================================================
+Step 9: InterVar-style ACMG Classification
+======================================================================
+
+[1/3] 加载 InterVar 知识库...
+  [intervardb] 加载 6213 个 LOF 不耐受基因 (PVS1)
+  [intervardb] 加载 38353 个已知致病氨基酸改变 (PS1)
+  [intervardb] 加载 1237 个功能域记录 (PM1)
+  [intervardb] 加载 931 个错义致病基因 (PP2)
+  [intervardb] 加载 1449 个截断良性基因 (BP1)
+  [intervardb] 加载 5665742 个健康人群变异 (BS2)
+  [intervardb] 加载 1154 个病例对照显著变异 (PS4)
+
+[2/3] 评估 ACMG 证据...
+  读取 68 个变异
+
+[3/3] 写入结果...
+
+--------------------------------------------------
+ACMG 分类结果统计:
+--------------------------------------------------
+  Pathogenic                    :   0 (  0.0%) 
+  Likely_pathogenic             :   0 (  0.0%) 
+  Uncertain_significance        :  62 ( 91.2%) █████████████████████████████████████████████
+  Likely_benign                 :   6 (  8.8%) ████
+  Benign                        :   0 (  0.0%) 
+--------------------------------------------------
+  总计: 68 个变异
+
+输出文件:
+  - VCF: /Volumes/T9/herita-project/results/final_intervar_classified.vcf
+  - 报告: /Volumes/T9/herita-project/results/STEP9_INTERVAR_ACMG_REPORT.md
+
+✓ Step 9 完成!
+
+======================================================================
+Step 10: Generating Detailed ACMG Analysis Log
+======================================================================
+Input VCF: /Volumes/T9/herita-project/results/final_intervar_classified.vcf
+Output Log: /Volumes/T9/herita-project/results/STEP10_ACMG_DETAILED_LOG.txt
+
+[1/3] Loading knowledge base (reusing Step 9 logic)...
+  [intervardb] 加载 6213 个 LOF 不耐受基因 (PVS1)
+  [intervardb] 加载 38353 个已知致病氨基酸改变 (PS1)
+  [intervardb] 加载 1237 个功能域记录 (PM1)
+  [intervardb] 加载 931 个错义致病基因 (PP2)
+  [intervardb] 加载 1449 个截断良性基因 (BP1)
+  [intervardb] 加载 5665742 个健康人群变异 (BS2)
+  [intervardb] 加载 1154 个病例对照显著变异 (PS4)
+
+[2/3] Reading variants from /Volumes/T9/herita-project/results/final_intervar_classified.vcf...
+  Processing 68 variants...
+
+[3/3] Generating detailed log...
+
+Detailed log generated: /Volumes/T9/herita-project/results/STEP10_ACMG_DETAILED_LOG.txt
+✓ Step 10 Completed!
+======================================================================
+HERITA 变异筛选流水线
+======================================================================
+开始时间: 2025-12-09 19:23:49
+项目目录: /Volumes/T9/herita-project
+======================================================================
+
+📁 清理之前的结果文件...
+   删除: vcf1.vcf
+   删除: vcf2.vcf
+   删除: vcf3.vcf
+   删除: vcf4.vcf
+   删除: vcf5.vcf
+   删除: vcf5_annotated.vcf
+   删除: vcf6.vcf
+   删除: final_clinvar.vcf
+   删除: final_dbscSNV.vcf
+   删除: final_top.vcf
+   删除: merged_final.vcf
+   删除: merged_annotated.vcf
+   删除: final_integrated.vcf
+   删除: final_intervar_classified.vcf
+   删除: STEP10_ACMG_DETAILED_LOG.txt
+   共清理 15 个文件
+
+📄 输入文件: /Volumes/T9/herita-project/input_data/HG001.vcf
+   变异数量: 273
+
+🚀 将执行步骤: Step 1 ~ Step 10
+
+======================================================================
+Step 1: gnomAD频率注释与过滤
+脚本: step1_gnomad_annotation_filter.py
+======================================================================
+
+✅ Step 1 完成 (耗时: 0:00:00.309541)
+
+======================================================================
+Step 2: gnomAD Flag注释
+脚本: step2_gnomad_flag_annotation.py
+======================================================================
+
+✅ Step 2 完成 (耗时: 0:00:00.332974)
+
+======================================================================
+Step 3: 测序质量过滤
+脚本: step3_sequencing_quality_filter.py
+======================================================================
+
+✅ Step 3 完成 (耗时: 0:00:00.090378)
+
+======================================================================
+Step 4: ClinVar注释
+脚本: step4_clinvar_annotation.py
+======================================================================
+
+✅ Step 4 完成 (耗时: 0:00:04.786232)
+
+======================================================================
+Step 5: dbscSNV注释
+脚本: step5_dbscSNV_annotation.py
+======================================================================
+
+✅ Step 5 完成 (耗时: 0:00:03.578152)
+
+======================================================================
+Step 6: dbNSFP多评分注释与过滤
+脚本: step6_dbNSFP_annotation_filter.py
+======================================================================
+
+✅ Step 6 完成 (耗时: 0:00:00.377198)
+
+======================================================================
+Step 7: 最终Top50筛选
+脚本: step7_final_top50_selection.py
+======================================================================
+
+✅ Step 7 完成 (耗时: 0:00:00.084427)
+
+======================================================================
+Step 8: 最终整合
+脚本: step8_final_integration.py
+======================================================================
+
+✅ Step 8 完成 (耗时: 0:00:04.704122)
+
+======================================================================
+Step 9: InterVar ACMG分类
+脚本: step9_intervar_acmg.py
+======================================================================
+
+✅ Step 9 完成 (耗时: 0:00:03.012470)
+
+======================================================================
+Step 10: 生成详细ACMG分析日志
+脚本: step10_acmg_detailed_report.py
+======================================================================
+
+✅ Step 10 完成 (耗时: 0:00:03.258609)
+
+======================================================================
+流水线执行摘要
+======================================================================
+
+文件                                                   变异数
+------------------------------------------------------------
+输入文件                                                 273
+Step 1 (gnomAD过滤后)                                   272
+Step 2 (gnomAD Flag后)                                272
+Step 3 (质量过滤后)                                       265
+Step 4 (ClinVar注释后)                                  262
+Step 5 (dbscSNV注释后)                                  262
+Step 6 (评分过滤后)                                       150
+ClinVar致病变异                                            2
+dbscSNV高分变异                                            0
+Top50高分变异                                             66
+最终整合结果                                                68
+ACMG分类结果                                              68
+
+======================================================================
+✅ 最终结果: /Volumes/T9/herita-project/results/final_intervar_classified.vcf
+======================================================================
+
+总耗时: 0:00:20.535238
+
+✅ 流水线执行完成！
+[19:24:10]   Branch A 输出: /Volumes/T9/herita-project/results/HG001_branchA_annotated.vcf
+[19:24:15] Branch B - Step B1: snpEff 注释 (21338 个变异)
+[19:24:15] [CMD] snpEff annotation
+[19:24:15]       /opt/homebrew/opt/openjdk@21/bin/java -Xmx4g -jar /Volumes/T9/snpEff/snpEff/snpEff.jar -canon -noStats...
+[19:25:10]   输出: /Volumes/T9/herita-project/results/HG001_branchB_snpeff.vcf
+[19:25:10] Branch B - Step B2: 影响力过滤 (保留 ('HIGH', 'MODERATE'))
+[19:25:10]   保留: 9599/21338
+[19:25:10]   输出: /Volumes/T9/herita-project/results/HG001_branchB_snpeff_filtered.vcf
+[19:25:10] Branch B - Step B3: VEP REST 注释 (9599 个变异, batch=100)
+[19:25:10]     VEP batch 1/96
+[19:25:54]     VEP batch 2/96
+[19:26:20]     VEP batch 3/96
+[19:27:08]     VEP batch 4/96
+[19:27:31]     VEP batch 5/96
+[19:27:53]     VEP batch 6/96
+[19:28:29]     VEP batch 7/96
+[19:29:01]     VEP batch 8/96
+[19:29:19]     VEP batch 9/96
+[19:29:38]     VEP batch 10/96
+[19:29:51]     VEP batch 11/96
+[19:30:21]     VEP batch 12/96
+[19:30:43]     VEP batch 13/96
+[19:31:28]     VEP batch 14/96
+[19:32:19]     VEP batch 15/96
+[19:32:47]     VEP batch 16/96
+[19:33:06]     VEP batch 17/96
+[19:33:53]     VEP batch 18/96
+[19:34:14]     VEP batch 19/96
+[19:35:01]     VEP batch 20/96
+[19:35:40]     VEP batch 21/96
+[19:36:20]     VEP batch 22/96
+[19:38:02]     VEP 异常: HTTPSConnectionPool(host='rest.ensembl.org', port=443): Max retries exceeded with url: /vep/human/region (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+[19:38:22]     VEP batch 23/96
+[19:38:40]     VEP batch 24/96
+[19:39:26]     VEP batch 25/96
+[19:40:59]     VEP 异常: HTTPSConnectionPool(host='rest.ensembl.org', port=443): Max retries exceeded with url: /vep/human/region (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+[19:41:24]     VEP batch 26/96
+[19:42:10]     VEP batch 27/96
+[19:42:48]     VEP batch 28/96
+[19:43:29]     VEP batch 29/96
+[19:43:54]     VEP batch 30/96
+[19:44:29]     VEP batch 31/96
+[19:44:50]     VEP batch 32/96
+[19:45:10]     VEP batch 33/96
+[19:45:23]     VEP batch 34/96
+[19:45:42]     VEP batch 35/96
+[19:46:03]     VEP batch 36/96
+[19:46:23]     VEP batch 37/96
+[19:46:56]     VEP batch 38/96
+[19:47:18]     VEP batch 39/96
+[19:48:29]     VEP batch 40/96
+[19:50:30]     VEP 异常: HTTPSConnectionPool(host='rest.ensembl.org', port=443): Read timed out. (read timeout=120)
+[19:50:48]     VEP batch 41/96
+[19:51:22]     VEP batch 42/96
+[19:52:02]     VEP batch 43/96
+[19:52:19]     VEP batch 44/96
+[19:52:58]     VEP batch 45/96
+[19:53:45]     VEP batch 46/96
+[19:54:05]     VEP batch 47/96
+[19:54:51]     VEP batch 48/96
+[19:55:11]     VEP batch 49/96
+[19:55:28]     VEP batch 50/96
+[19:56:10]     VEP batch 51/96
+[19:57:02]     VEP batch 52/96
+[19:57:27]     VEP batch 53/96
+[19:58:10]     VEP batch 54/96
+[19:58:49]     VEP batch 55/96
+[19:59:04]     VEP batch 56/96
+[19:59:32]     VEP batch 57/96
+[19:59:35]     VEP 异常: HTTPSConnectionPool(host='rest.ensembl.org', port=443): Max retries exceeded with url: /vep/human/region (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+[19:59:54]     VEP batch 58/96
+[19:59:58]     VEP 异常: HTTPSConnectionPool(host='rest.ensembl.org', port=443): Max retries exceeded with url: /vep/human/region (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+[20:00:15]     VEP batch 59/96
+[20:00:18]     VEP 异常: HTTPSConnectionPool(host='rest.ensembl.org', port=443): Max retries exceeded with url: /vep/human/region (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))
+[20:00:35]     VEP batch 60/96
+[20:00:48]     VEP batch 61/96

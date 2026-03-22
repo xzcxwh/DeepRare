@@ -1,0 +1,93 @@
+2025-11-27 14:43:43,462 - INFO - 开始VCF注释和筛选流程...
+2025-11-27 14:43:43,482 - INFO - ✓ bcftools 可用
+2025-11-27 14:43:43,499 - ERROR - ✗ vcfanno 未找到或不可用
+2025-11-27 14:43:43,499 - ERROR - 依赖检查失败，退出程序
+2025-11-27 14:43:55,853 - INFO - 开始VCF注释和筛选流程...
+2025-11-27 14:43:55,859 - INFO - ✓ bcftools 可用
+2025-11-27 14:43:55,863 - INFO - ✓ vcfanno 可用
+2025-11-27 14:43:55,863 - INFO - ✓ 找到文件: HG001.vcf
+2025-11-27 14:43:55,863 - INFO - ✓ 找到文件: dbNSFP5.3a_grch38_lite.tsv.gz
+2025-11-27 14:43:55,863 - INFO - ✓ 找到文件: vcfanno_config.toml
+2025-11-27 14:43:55,865 - INFO - ✓ 创建vcfanno配置文件: vcfanno_config.toml
+2025-11-27 14:43:55,865 - INFO - 预处理VCF文件以处理染色体命名...
+2025-11-27 14:43:55,878 - WARNING - VCF预处理失败: Could not parse: /dev/fd/63
+
+2025-11-27 14:43:55,879 - INFO - 将直接使用原始VCF文件
+2025-11-27 14:43:55,879 - INFO - 开始使用vcfanno进行注释...
+2025-11-27 14:43:55,879 - INFO - 执行命令: vcfanno -p 16 vcfanno_config.toml HG001.vcf
+2025-11-27 14:43:55,886 - ERROR - ✗ vcfanno注释失败: 
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:113: requested op not found: gt for dbNSFP5.3a_grch38_lite.tsv.gz
+
+2025-11-27 14:43:55,886 - ERROR - vcfanno注释失败，退出程序
+2025-11-27 14:45:06,882 - INFO - 开始VCF注释和筛选流程...
+2025-11-27 14:45:06,902 - INFO - ✓ bcftools 可用
+2025-11-27 14:45:06,919 - INFO - ✓ vcfanno 可用
+2025-11-27 14:45:06,919 - INFO - ✓ 找到文件: HG001.vcf
+2025-11-27 14:45:06,919 - INFO - ✓ 找到文件: dbNSFP5.3a_grch38_lite.tsv.gz
+2025-11-27 14:45:06,919 - INFO - ✓ 找到文件: vcfanno_config.toml
+2025-11-27 14:45:06,921 - INFO - ✓ 创建vcfanno配置文件: vcfanno_config.toml
+2025-11-27 14:45:06,921 - INFO - 预处理VCF文件以处理染色体命名...
+2025-11-27 14:45:14,799 - INFO - ✓ VCF预处理完成，生成: HG001_no_chr.vcf
+2025-11-27 14:45:14,800 - INFO - 开始使用vcfanno进行注释...
+2025-11-27 14:45:14,800 - INFO - 执行命令: vcfanno -p 16 vcfanno_config.toml HG001_no_chr.vcf
+2025-11-27 14:45:14,809 - ERROR - ✗ vcfanno注释失败: 
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:113: requested op not found: gt for dbNSFP5.3a_grch38_lite.tsv.gz
+
+2025-11-27 14:45:14,809 - ERROR - vcfanno注释失败，退出程序
+2025-11-27 14:45:22,103 - INFO - 开始VCF注释和筛选流程...
+2025-11-27 14:45:22,110 - INFO - ✓ bcftools 可用
+2025-11-27 14:45:22,115 - INFO - ✓ vcfanno 可用
+2025-11-27 14:45:22,115 - INFO - ✓ 找到文件: HG001.vcf
+2025-11-27 14:45:22,115 - INFO - ✓ 找到文件: dbNSFP5.3a_grch38_lite.tsv.gz
+2025-11-27 14:45:22,115 - INFO - ✓ 找到文件: vcfanno_config.toml
+2025-11-27 14:45:22,117 - INFO - ✓ 创建vcfanno配置文件: vcfanno_config.toml
+2025-11-27 14:45:22,117 - INFO - 预处理VCF文件以处理染色体命名...
+2025-11-27 14:45:32,093 - INFO - ✓ VCF预处理完成，生成: HG001_no_chr.vcf
+2025-11-27 14:45:32,094 - INFO - 开始使用vcfanno进行注释...
+2025-11-27 14:45:32,094 - INFO - 执行命令: vcfanno -p 16 vcfanno_config.toml HG001_no_chr.vcf
+2025-11-27 14:45:32,114 - ERROR - ✗ vcfanno注释失败: 
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:113: requested op not found: gt for dbNSFP5.3a_grch38_lite.tsv.gz
+
+2025-11-27 14:45:32,114 - ERROR - vcfanno注释失败，退出程序
+2025-11-27 14:45:44,963 - INFO - 开始VCF注释和筛选流程...
+2025-11-27 14:45:44,974 - INFO - ✓ bcftools 可用
+2025-11-27 14:45:44,979 - INFO - ✓ vcfanno 可用
+2025-11-27 14:45:44,979 - INFO - ✓ 找到文件: HG001.vcf
+2025-11-27 14:45:44,979 - INFO - ✓ 找到文件: dbNSFP5.3a_grch38_lite.tsv.gz
+2025-11-27 14:45:44,979 - INFO - ✓ 找到文件: vcfanno_config.toml
+2025-11-27 14:45:44,980 - INFO - ✓ 创建vcfanno配置文件: vcfanno_config.toml
+2025-11-27 14:45:44,980 - INFO - 预处理VCF文件以处理染色体命名...
+2025-11-27 14:45:52,547 - INFO - ✓ VCF预处理完成，生成: HG001_no_chr.vcf
+2025-11-27 14:45:52,548 - INFO - 开始使用vcfanno进行注释...
+2025-11-27 14:45:52,548 - INFO - 执行命令: vcfanno -p 16 vcfanno_config.toml HG001_no_chr.vcf
+2025-11-27 14:46:09,197 - INFO - ✓ vcfanno注释完成，耗时: 16.65秒
+2025-11-27 14:46:09,197 - INFO - 注释结果保存到: HG001_annotated.vcf
+2025-11-27 14:46:09,197 - INFO - 开始筛选变异...
+2025-11-27 14:46:17,632 - INFO - 注释后变异总数: 0
+2025-11-27 14:46:17,632 - INFO - 筛选命令: bcftools view -i INFO/gnomAD4.1_joint_POPMAX_AF != "." && INFO/gnomAD4.1_joint_POPMAX_AF < 0.01 -O v -o vcf1.vcf HG001_annotated.vcf
+2025-11-27 14:46:17,640 - ERROR - ✗ 变异筛选失败: Error: cannot use arithmetic operators to compare strings and numbers
+
+2025-11-27 14:46:17,640 - INFO - 尝试其他筛选方法...
+2025-11-27 14:46:17,640 - INFO - 使用awk进行备用筛选...
+2025-11-27 14:46:17,646 - ERROR - ✗ awk筛选也失败: awk: syntax error at source line 5
+ context is
+	        if (match($0, >>>  /gnomAD4.1_joint_POPMAX_AF=([^;]+)/, <<< 
+awk: illegal statement at source line 5
+awk: illegal statement at source line 5
+
+2025-11-27 14:46:17,646 - ERROR - 变异筛选失败，退出程序

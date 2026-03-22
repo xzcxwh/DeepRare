@@ -1,0 +1,14 @@
+[19:21:33] ============================================================
+[19:21:33] HERITA 双分支流水线 v2
+[19:21:33] 输入: /Volumes/T9/herita-project/input_data/HG001.vcf
+[19:21:33] 前缀: HG001
+[19:21:33] ============================================================
+[19:21:33] Step0: CDS 交集预处理
+[19:21:33]   输入: /Volumes/T9/herita-project/input_data/HG001.vcf
+[19:21:33]   CDS BED: /Volumes/T9/herita-project/annotation_data/hg38_cds.bed.gz
+[19:21:33] [CMD] bedtools intersect
+[19:21:33]       bedtools intersect -header -a /Volumes/T9/herita-project/input_data/HG001.vcf -b...
+[19:21:40]   输出: /Volumes/T9/herita-project/results/HG001_cds.vcf (21693 个变异)
+[19:21:40] Step1: vcfanno 注释 (gnomAD + dbNSFP)
+[19:21:40] [CMD] vcfanno annotation
+[19:21:40]       vcfanno -lua /Volumes/T9/herita-project/config/vcfanno_functions.lua /Volumes/T9/herita-project/config/vcfanno_step1_full.toml /Volumes/T9/herita-project/results/HG001_cds.vcf

@@ -1,0 +1,103 @@
+[20:25:54] ============================================================
+[20:25:54] HERITA 双分支流水线 v2
+[20:25:54] 输入: /Volumes/T9/herita-project/input_data/HG001.vcf
+[20:25:54] 前缀: HG001
+[20:25:54] ============================================================
+[20:25:54] Step0: CDS 交集预处理
+[20:25:54]   输入: /Volumes/T9/herita-project/input_data/HG001.vcf
+[20:25:54]   CDS BED: /Volumes/T9/herita-project/annotation_data/hg38_cds.bed.gz
+[20:25:54] [CMD] bedtools intersect
+[20:25:54]       bedtools intersect -header -a /Volumes/T9/herita-project/input_data/HG001.vcf -b...
+[20:26:01]   输出: /Volumes/T9/herita-project/results/HG001_cds.vcf (21693 个变异)
+[20:26:01] Step1: gnomAD 频率注释（精简版）
+[20:26:01] [CMD] gnomAD annotation (Go)
+[20:26:01]       /Volumes/T9/herita-project/herita-pipeline-go/cmd/gnomad_annotate/gnomad_annotate -input /Volumes/T9/herita-project/results/HG001_cds.vcf -output /Volumes/T9/herita-project/results/HG001_cds_annotated.vcf.gz -gnomad...
+============================================================
+HERITA gnomAD Annotation Tool (Go version)
+============================================================
+Input: /Volumes/T9/herita-project/results/HG001_cds.vcf
+Output: /Volumes/T9/herita-project/results/HG001_cds_annotated.vcf.gz
+GnomAD Dir: /Volumes/T9/gnomAD/gnomAD_lite
+Threads: 8
+============================================================
+Input VCF is not compressed. Creating temporary bgzipped version...
+Indexing input VCF...
+Found 22 chromosomes in input VCF
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:195: Info Error: AF not found in INFO >> this error/warning may occur many times. reporting once here...
+vcfanno.go:195: Info Error: AF not found in INFO >> this error/warning may occur many times. reporting once here...
+vcfanno.go:195: Info Error: AF not found in INFO >> this error/warning may occur many times. reporting once here...
+vcfanno.go:195: Info Error: AF not found in INFO >> this error/warning may occur many times. reporting once here...
+vcfanno.go:250: annotated 385 variants in 2.74 seconds (140.5 / second)
+✓ chr13 processed
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file

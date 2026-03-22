@@ -1,0 +1,643 @@
+
+开始运行 HERITA 流水线...
+命令: /Volumes/T9/herita-project/herita-pipeline-go/bin/herita_pipeline -input input_data/HG001_cds.vcf -output results_pipeline -threads 4 -af 0.01 -spliceai 0.5 -top 50 -workdir /Volumes/T9/herita-project -verbose
+
+
+╔════════════════════════════════════════════════════════════╗
+║         HERITA 变异注释与筛选流水线 v1.0                    ║
+╠════════════════════════════════════════════════════════════╣
+║ 输入文件: input_data/HG001_cds.vcf                         ║
+║ 输出目录: results_pipeline                                 ║
+║ AF 阈值:  0.0100                                           ║
+║ 线程数:   4                                                ║
+╚════════════════════════════════════════════════════════════╝
+
+检查依赖...
+  ✓ 找到: gnomad_grpmax_filter
+  ✓ 找到: clinvar_annotate
+  ✓ 找到: clinvar_filter
+  ✓ 找到: snpeff_filter
+  ✓ 找到: dbscsnv_filter
+  ✓ 找到: vep_annotate
+  ✓ 找到: dbnsfp_annotate
+  ✓ 找到: finalists_merger
+  ✓ 所有依赖检查通过
+
+────────────────────────────────────────────────────────────
+▶ 1. gnomAD 频率过滤
+────────────────────────────────────────────────────────────
+  命令: /Volumes/T9/herita-project/herita-pipeline-go/bin/gnomad_grpmax_filter -input input_data/HG001_cds.vcf -output results_pipeline/HG001_cds_gnomad_filtered.vcf -gnomad gnomAD_dataset -max-af 0.010000 -threads 4
+============================================================
+HERITA gnomAD AF_grpmax Annotation & Filter Tool
+============================================================
+Input: input_data/HG001_cds.vcf
+Output: results_pipeline/HG001_cds_gnomad_filtered.vcf
+GnomAD Dir: gnomAD_dataset
+Max AF_grpmax: 0.01
+Threads: 4
+============================================================
+Compressing and indexing input VCF...
+Found 22 chromosomes in input VCF
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:250: annotated 558 variants in 79.09 seconds (7.1 / second)
+✓ chr20 processed
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:250: annotated 912 variants in 106.00 seconds (8.6 / second)
+✓ chr10 processed
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:250: annotated 256 variants in 43.39 seconds (5.9 / second)
+✓ chr21 processed
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:195: Info Error: AF_grpmax not found in INFO >> this error/warning may occur many times. reporting once here...
+vcfanno.go:195: Info Error: AF_grpmax not found in INFO >> this error/warning may occur many times. reporting once here...
+vcfanno.go:195: Info Error: AF_grpmax not found in INFO >> this error/warning may occur many times. reporting once here...
+vcfanno.go:250: annotated 950 variants in 131.23 seconds (7.2 / second)
+✓ chr5 processed
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:250: annotated 1525 variants in 235.29 seconds (6.5 / second)
+✓ chr11 processed
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:195: Info Error: AF_grpmax not found in INFO >> this error/warning may occur many times. reporting once here...
+vcfanno.go:250: annotated 510 variants in 117.91 seconds (4.3 / second)
+✓ chr22 processed
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:195: Info Error: AF_grpmax not found in INFO >> this error/warning may occur many times. reporting once here...
+vcfanno.go:250: annotated 865 variants in 105.29 seconds (8.2 / second)
+✓ chr4 processed
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:250: annotated 2235 variants in 346.59 seconds (6.4 / second)
+✓ chr1 processed
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:195: Info Error: AF_grpmax not found in INFO >> this error/warning may occur many times. reporting once here...
+vcfanno.go:250: annotated 385 variants in 43.87 seconds (8.8 / second)
+✓ chr13 processed
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:250: annotated 1088 variants in 181.85 seconds (6.0 / second)
+✓ chr3 processed
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:195: Info Error: AF_grpmax not found in INFO >> this error/warning may occur many times. reporting once here...
+vcfanno.go:250: annotated 982 variants in 199.34 seconds (4.9 / second)
+✓ chr16 processed
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:250: annotated 704 variants in 107.88 seconds (6.5 / second)
+✓ chr14 processed
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:195: Info Error: AF_grpmax not found in INFO >> this error/warning may occur many times. reporting once here...
+vcfanno.go:250: annotated 1100 variants in 180.02 seconds (6.1 / second)
+✓ chr12 processed
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:195: Info Error: AF_grpmax not found in INFO >> this error/warning may occur many times. reporting once here...
+vcfanno.go:250: annotated 966 variants in 139.56 seconds (6.9 / second)
+✓ chr7 processed
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:250: annotated 373 variants in 43.89 seconds (8.5 / second)
+✓ chr18 processed
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:195: Info Error: AF_grpmax not found in INFO >> this error/warning may occur many times. reporting once here...
+vcfanno.go:250: annotated 1466 variants in 146.81 seconds (10.0 / second)
+✓ chr6 processed
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:195: Info Error: AF_grpmax not found in INFO >> this error/warning may occur many times. reporting once here...
+vcfanno.go:250: annotated 740 variants in 95.35 seconds (7.8 / second)
+✓ chr8 processed
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:195: Info Error: AF_grpmax not found in INFO >> this error/warning may occur many times. reporting once here...
+vcfanno.go:250: annotated 1263 variants in 249.72 seconds (5.1 / second)
+✓ chr17 processed
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 1 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:250: annotated 1436 variants in 232.66 seconds (6.2 / second)
+✓ chr2 processed
+vcfanno.go:195: Info Error: AF_grpmax not found in INFO >> this error/warning may occur many times. reporting once here...
+vcfanno.go:250: annotated 901 variants in 124.39 seconds (7.2 / second)
+✓ chr9 processed
+vcfanno.go:195: Info Error: AF_grpmax not found in INFO >> this error/warning may occur many times. reporting once here...
+vcfanno.go:250: annotated 1823 variants in 320.33 seconds (5.7 / second)
+✓ chr19 processed
+vcfanno.go:250: annotated 678 variants in 87.75 seconds (7.7 / second)
+✓ chr15 processed
+Merging annotated results...
+Checking the headers and starting positions of 22 files
+Filtering variants with AF_grpmax < 0.01 or missing...
+  Kept: 741, Filtered: 20975
+Calculating statistics...
+============================================================
+Annotation & Filtering Complete!
+Total Time: 14m19.301s
+Input Variants: 21716
+Output Variants: 741 (3.41% retained)
+Variants with AF_grpmax annotation: 587 (79.22%)
+============================================================
+✓ 完成 (耗时 14m19s)
+
+────────────────────────────────────────────────────────────
+▶ 2. ClinVar 注释
+────────────────────────────────────────────────────────────
+  命令: /Volumes/T9/herita-project/herita-pipeline-go/bin/clinvar_annotate -input results_pipeline/HG001_cds_gnomad_filtered.vcf -output results_pipeline/HG001_cds_clinvar_annotated.vcf -clinvar input_data/clinvar_vcf_GRCh38.vcf.gz -threads 4
+============================================================
+HERITA ClinVar Annotation Tool
+============================================================
+Input: results_pipeline/HG001_cds_gnomad_filtered.vcf
+Output: results_pipeline/HG001_cds_clinvar_annotated.vcf
+ClinVar: input_data/clinvar_vcf_GRCh38.vcf.gz
+Threads: 4
+Fields: CLNSIG, CLNREVSTAT, ALLELEID, CLNDN, CLNDISDB
+============================================================
+Compressing and indexing input VCF...
+Found 22 chromosomes in input VCF
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 5 sources from 1 files
+vcfanno.go:116: found 5 sources from 1 files
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 5 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 5 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+api.go:811: WARNING: using op 'self' when with Number='1' for 'ALLELEID' from 'input_data/clinvar_vcf_GRCh38.vcf.gz' can result in out-of-order values when the query is multi-allelic
+api.go:812:        : this is not an issue if the query has been decomposed.
+api.go:811: WARNING: using op 'self' when with Number='1' for 'ALLELEID' from 'input_data/clinvar_vcf_GRCh38.vcf.gz' can result in out-of-order values when the query is multi-allelic
+api.go:812:        : this is not an issue if the query has been decomposed.
+api.go:811: WARNING: using op 'self' when with Number='1' for 'ALLELEID' from 'input_data/clinvar_vcf_GRCh38.vcf.gz' can result in out-of-order values when the query is multi-allelic
+api.go:812:        : this is not an issue if the query has been decomposed.
+api.go:811: WARNING: using op 'self' when with Number='1' for 'ALLELEID' from 'input_data/clinvar_vcf_GRCh38.vcf.gz' can result in out-of-order values when the query is multi-allelic
+api.go:812:        : this is not an issue if the query has been decomposed.
+vcfanno.go:250: annotated 9 variants in 0.00 seconds (4418.8 / second)
+vcfanno.go:250: annotated 17 variants in 0.01 seconds (2790.1 / second)
+vcfanno.go:250: annotated 17 variants in 0.01 seconds (2068.2 / second)
+✓ chr21 processed
+vcfanno.go:250: annotated 32 variants in 0.02 seconds (1600.8 / second)
+✓ chr13 processed
+✓ chr10 processed
+✓ chr12 processed
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 5 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 5 sources from 1 files
+vcfanno.go:116: found 5 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 5 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+api.go:811: WARNING: using op 'self' when with Number='1' for 'ALLELEID' from 'input_data/clinvar_vcf_GRCh38.vcf.gz' can result in out-of-order values when the query is multi-allelic
+api.go:812:        : this is not an issue if the query has been decomposed.
+api.go:811: WARNING: using op 'self' when with Number='1' for 'ALLELEID' from 'input_data/clinvar_vcf_GRCh38.vcf.gz' can result in out-of-order values when the query is multi-allelic
+api.go:812:        : this is not an issue if the query has been decomposed.
+api.go:811: WARNING: using op 'self' when with Number='1' for 'ALLELEID' from 'input_data/clinvar_vcf_GRCh38.vcf.gz' can result in out-of-order values when the query is multi-allelic
+api.go:812:        : this is not an issue if the query has been decomposed.
+vcfanno.go:195: Info Error: CLNDISDB not found in INFO >> this error/warning may occur many times. reporting once here...
+vcfanno.go:250: annotated 19 variants in 0.01 seconds (2579.7 / second)
+api.go:811: WARNING: using op 'self' when with Number='1' for 'ALLELEID' from 'input_data/clinvar_vcf_GRCh38.vcf.gz' can result in out-of-order values when the query is multi-allelic
+api.go:812:        : this is not an issue if the query has been decomposed.
+vcfanno.go:195: Info Error: CLNDISDB not found in INFO >> this error/warning may occur many times. reporting once here...
+vcfanno.go:250: annotated 35 variants in 0.03 seconds (1336.2 / second)
+vcfanno.go:250: annotated 38 variants in 0.02 seconds (1835.3 / second)
+vcfanno.go:250: annotated 29 variants in 0.01 seconds (2078.4 / second)
+✓ chr14 processed
+✓ chr11 processed
+✓ chr17 processed
+✓ chr15 processed
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 5 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 5 sources from 1 files
+vcfanno.go:116: found 5 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 5 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+api.go:811: WARNING: using op 'self' when with Number='1' for 'ALLELEID' from 'input_data/clinvar_vcf_GRCh38.vcf.gz' can result in out-of-order values when the query is multi-allelic
+api.go:812:        : this is not an issue if the query has been decomposed.
+api.go:811: WARNING: using op 'self' when with Number='1' for 'ALLELEID' from 'input_data/clinvar_vcf_GRCh38.vcf.gz' can result in out-of-order values when the query is multi-allelic
+api.go:812:        : this is not an issue if the query has been decomposed.
+api.go:811: WARNING: using op 'self' when with Number='1' for 'ALLELEID' from 'input_data/clinvar_vcf_GRCh38.vcf.gz' can result in out-of-order values when the query is multi-allelic
+api.go:812:        : this is not an issue if the query has been decomposed.
+vcfanno.go:195: Info Error: CLNDISDB not found in INFO >> this error/warning may occur many times. reporting once here...
+api.go:811: WARNING: using op 'self' when with Number='1' for 'ALLELEID' from 'input_data/clinvar_vcf_GRCh38.vcf.gz' can result in out-of-order values when the query is multi-allelic
+api.go:812:        : this is not an issue if the query has been decomposed.
+vcfanno.go:195: Info Error: CLNDISDB not found in INFO >> this error/warning may occur many times. reporting once here...
+vcfanno.go:250: annotated 29 variants in 0.02 seconds (1849.5 / second)
+vcfanno.go:250: annotated 45 variants in 0.03 seconds (1507.5 / second)
+vcfanno.go:250: annotated 36 variants in 0.03 seconds (1061.9 / second)
+✓ chr22 processed
+✓ chr16 processed
+vcfanno.go:195: Info Error: CLNDISDB not found in INFO >> this error/warning may occur many times. reporting once here...
+vcfanno.go:250: annotated 53 variants in 0.04 seconds (1469.3 / second)
+✓ chr5 processed
+✓ chr19 processed
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 5 sources from 1 files
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+vcfanno.go:116: found 5 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 5 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 5 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+api.go:811: WARNING: using op 'self' when with Number='1' for 'ALLELEID' from 'input_data/clinvar_vcf_GRCh38.vcf.gz' can result in out-of-order values when the query is multi-allelic
+api.go:812:        : this is not an issue if the query has been decomposed.
+api.go:811: WARNING: using op 'self' when with Number='1' for 'ALLELEID' from 'input_data/clinvar_vcf_GRCh38.vcf.gz' can result in out-of-order values when the query is multi-allelic
+api.go:812:        : this is not an issue if the query has been decomposed.
+api.go:811: WARNING: using op 'self' when with Number='1' for 'ALLELEID' from 'input_data/clinvar_vcf_GRCh38.vcf.gz' can result in out-of-order values when the query is multi-allelic
+api.go:812:        : this is not an issue if the query has been decomposed.
+vcfanno.go:250: annotated 30 variants in 0.01 seconds (2245.9 / second)
+api.go:811: WARNING: using op 'self' when with Number='1' for 'ALLELEID' from 'input_data/clinvar_vcf_GRCh38.vcf.gz' can result in out-of-order values when the query is multi-allelic
+api.go:812:        : this is not an issue if the query has been decomposed.
+vcfanno.go:250: annotated 41 variants in 0.03 seconds (1526.7 / second)
+vcfanno.go:195: Info Error: CLNDISDB not found in INFO >> this error/warning may occur many times. reporting once here...
+vcfanno.go:250: annotated 30 variants in 0.02 seconds (1605.9 / second)
+✓ chr4 processed
+✓ chr3 processed
+vcfanno.go:250: annotated 62 variants in 0.02 seconds (2950.8 / second)
+✓ chr7 processed
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 5 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+✓ chr6 processed
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 5 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 5 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 5 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+api.go:811: WARNING: using op 'self' when with Number='1' for 'ALLELEID' from 'input_data/clinvar_vcf_GRCh38.vcf.gz' can result in out-of-order values when the query is multi-allelic
+api.go:812:        : this is not an issue if the query has been decomposed.
+vcfanno.go:250: annotated 18 variants in 0.01 seconds (1885.7 / second)
+api.go:811: WARNING: using op 'self' when with Number='1' for 'ALLELEID' from 'input_data/clinvar_vcf_GRCh38.vcf.gz' can result in out-of-order values when the query is multi-allelic
+api.go:812:        : this is not an issue if the query has been decomposed.
+vcfanno.go:195: Info Error: CLNDISDB not found in INFO >> this error/warning may occur many times. reporting once here...
+api.go:811: WARNING: using op 'self' when with Number='1' for 'ALLELEID' from 'input_data/clinvar_vcf_GRCh38.vcf.gz' can result in out-of-order values when the query is multi-allelic
+api.go:812:        : this is not an issue if the query has been decomposed.
+vcfanno.go:250: annotated 12 variants in 0.01 seconds (1494.9 / second)
+✓ chr8 processed
+api.go:811: WARNING: using op 'self' when with Number='1' for 'ALLELEID' from 'input_data/clinvar_vcf_GRCh38.vcf.gz' can result in out-of-order values when the query is multi-allelic
+api.go:812:        : this is not an issue if the query has been decomposed.
+vcfanno.go:195: Info Error: CLNDISDB not found in INFO >> this error/warning may occur many times. reporting once here...
+vcfanno.go:250: annotated 58 variants in 0.04 seconds (1607.3 / second)
+✓ chr20 processed
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 5 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+✓ chr2 processed
+vcfanno.go:250: annotated 84 variants in 0.04 seconds (1950.6 / second)
+
+=============================================
+vcfanno version 0.3.7 [built with go1.24.6]
+
+see: https://github.com/brentp/vcfanno
+=============================================
+vcfanno.go:116: found 5 sources from 1 files
+vcfanno.go:146: using 2 worker threads to decompress bgzip file
+✓ chr1 processed
+api.go:811: WARNING: using op 'self' when with Number='1' for 'ALLELEID' from 'input_data/clinvar_vcf_GRCh38.vcf.gz' can result in out-of-order values when the query is multi-allelic
+api.go:812:        : this is not an issue if the query has been decomposed.
+vcfanno.go:250: annotated 14 variants in 0.01 seconds (1936.5 / second)
+api.go:811: WARNING: using op 'self' when with Number='1' for 'ALLELEID' from 'input_data/clinvar_vcf_GRCh38.vcf.gz' can result in out-of-order values when the query is multi-allelic
+api.go:812:        : this is not an issue if the query has been decomposed.
+✓ chr18 processed
+vcfanno.go:250: annotated 33 variants in 0.03 seconds (980.4 / second)
+✓ chr9 processed
+Merging annotated results...
+Checking the headers and starting positions of 22 files
+Calculating statistics...
+============================================================
+ClinVar Annotation Complete!
+Total Time: 754ms
+Input Variants: 741
+Output Variants: 741
+Variants with ClinVar annotation: 276 (37.25%)
+============================================================
+✓ 完成 (耗时 1s)
+
+────────────────────────────────────────────────────────────
+▶ 3. ClinVar 致病性分流
+────────────────────────────────────────────────────────────
+  命令: /Volumes/T9/herita-project/herita-pipeline-go/bin/clinvar_filter -input results_pipeline/HG001_cds_clinvar_annotated.vcf -final results_pipeline/HG001_cds_final_round.vcf -next results_pipeline/HG001_cds_next_level.vcf
+============================================================
+HERITA ClinVar Filter Tool
+============================================================
+Input: results_pipeline/HG001_cds_clinvar_annotated.vcf
+Final Round Output: results_pipeline/HG001_cds_final_round.vcf
+Next Level Output: results_pipeline/HG001_cds_next_level.vcf
+============================================================
+Filter Logic:
+  1. Pathogenic/Likely_pathogenic + High Confidence → Final Round
+  2. Benign/Likely_benign + High Confidence → Removed
+  3. All others → Next Level
+============================================================
+============================================================
+Filtering Complete!
+Total Time: 4ms
+============================================================
+Input Variants: 741
+------------------------------------------------------------
+→ Final Round (Pathogenic + High Confidence): 4
+✗ Removed (Benign + High Confidence): 97
+→ Next Level (needs further evaluation): 640
+  (including 465 without ClinVar annotation)
+============================================================
+
+Variants in Final Round:
+  1. chr10:87933147 C>T [Pathogenic, criteria_provided,_multiple_submitters,_no_conflicts]
+  2. chr12:102840474 T>C [Pathogenic, reviewed_by_expert_panel]
+  3. chr19:11111522 G>A [Likely_pathogenic, reviewed_by_expert_panel]
+  4. chr6:160706469 A>G [Pathogenic/Likely_pathogenic, criteria_provided,_multiple_submitters,_no_conflicts]
+============================================================
+✓ 完成 (耗时 0s)
+
+────────────────────────────────────────────────────────────
+▶ 4. snpEff HIGH 过滤
+────────────────────────────────────────────────────────────
+  命令: /Volumes/T9/herita-project/herita-pipeline-go/bin/snpeff_filter -input results_pipeline/HG001_cds_next_level.vcf -next results_pipeline/HG001_cds_after_snpeff.vcf -final results_pipeline/HG001_cds_final_round.vcf
+============================================================
+HERITA snpEff Annotation & HIGH Impact Filter Tool
+============================================================
+Input: results_pipeline/HG001_cds_next_level.vcf
+Final Round VCF: results_pipeline/HG001_cds_final_round.vcf
+Next Level VCF: results_pipeline/HG001_cds_after_snpeff.vcf
+snpEff: /Volumes/T9/snpEff/snpEff/snpEff.jar
+Genome: GRCh38.105
+============================================================
+Step 1: Running snpEff annotation...
+错误: 加载主类 org.snpeff.SnpEff 时出现 LinkageError
+	java.lang.UnsupportedClassVersionError: org/snpeff/SnpEff has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+2025/12/10 17:40:26 snpEff annotation failed: exit status 1
+✗ 失败: exit status 1 (耗时 0s)
+
+❌ 错误: 步骤 4 失败，终止流水线

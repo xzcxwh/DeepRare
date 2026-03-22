@@ -1,0 +1,33 @@
+[19:57:57] ============================================================
+[19:57:57] HERITA 双分支流水线 v2
+[19:57:57] 输入: /Volumes/T9/herita-project/input_data/HG001.vcf
+[19:57:57] 前缀: HG001
+[19:57:57] ============================================================
+[19:57:57] Step0: CDS 交集预处理
+[19:57:57]   输入: /Volumes/T9/herita-project/input_data/HG001.vcf
+[19:57:57]   CDS BED: /Volumes/T9/herita-project/annotation_data/hg38_cds.bed.gz
+[19:57:57] [CMD] bedtools intersect
+[19:57:57]       bedtools intersect -header -a /Volumes/T9/herita-project/input_data/HG001.vcf -b...
+[19:58:04]   输出: /Volumes/T9/herita-project/results/HG001_cds.vcf (21693 个变异)
+[19:58:04] Step1: gnomAD 频率注释（精简版）
+[19:58:04] [CMD] gnomAD annotation (Go)
+[19:58:04]       /Volumes/T9/herita-project/herita-pipeline-go/cmd/gnomad_annotate/gnomad_annotate -input /Volumes/T9/herita-project/results/HG001_cds.vcf -output /Volumes/T9/herita-project/results/HG001_cds_annotated.vcf.gz -gnomad...
+============================================================
+HERITA gnomAD Annotation Tool (Go version)
+============================================================
+Input: /Volumes/T9/herita-project/results/HG001_cds.vcf
+Output: /Volumes/T9/herita-project/results/HG001_cds_annotated.vcf.gz
+GnomAD Dir: /Volumes/T9/gnomAD/gnomAD_lite
+Threads: 8
+============================================================
+Input VCF is not compressed. Creating temporary bgzipped version...
+Indexing input VCF...
+Found 22 chromosomes in input VCF
+✓ chr13 processed
+✓ chr8 processed
+✓ chr22 processed
+✓ chr15 processed
+✓ chr5 processed
+✓ chr18 processed
+✓ chr3 processed
+✓ chr9 processed
