@@ -1,0 +1,457 @@
+启动 FastAPI 服务...
+访问文档: http://localhost:8000/docs
+INFO:     Will watch for changes in these directories: ['/Volumes/T9/herita-project']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [57263] using StatReload
+INFO:     Started server process [57265]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:64547 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64974 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65023 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50142 - "POST /pipeline/run HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50307 - "GET /pipeline/status/a829e080-f5b6-45a5-955b-922df36ff47d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50493 - "GET /pipeline/status/a829e080-f5b6-45a5-955b-922df36ff47d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50555 - "GET /pipeline/logs/a829e080-f5b6-45a5-955b-922df36ff47d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60714 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60714 - "GET /openapi.json HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'api/main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [57265]
+INFO:     Started server process [29534]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'api/main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29534]
+INFO:     Started server process [29547]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'scripts/vep_annotation.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [29547]
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/test_vep_api.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/vep_annotation.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/test_vep_api.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/test_vep_api.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/test_vep_api.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/vep_annotation.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/vep_annotation.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/test_vep_api.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/merge_vep_to_vcf.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/merge_vep_to_vcf.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/merge_vep_to_vcf.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in '.venv/lib/python3.13/site-packages/pip/_internal/cli/main.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/variant_scorer.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/master_pipeline_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/variant_scorer.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/acmg_classifier.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/acmg_classifier.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/acmg_classifier_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/dbnsfp_supplement.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/dbnsfp_supplement.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/dbnsfp_supplement.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/acmg_classifier_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/acmg_classifier_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/acmg_classifier_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/acmg_classifier_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/dbnsfp_supplement.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/dbnsfp_supplement.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/dbnsfp_supplement.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/variant_scorer.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/acmg_classifier.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/acmg_classifier_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/acmg_classifier_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
+WARNING:  StatReload detected changes in 'scripts/acmg_classifier_v2.py'. Reloading...
+Fatal Python error: init_sys_streams: can't initialize sys standard streams
+Python runtime state: core initialized
+OSError: [Errno 9] Bad file descriptor
+
+Current thread 0x00000001eface080 (most recent call first):
+  <no Python frame>
